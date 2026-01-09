@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlobalStyleCache
-  SavedSource="file:///C:/Users/10267884/MyCentral/Laguna/Laguna-Template/Output/10267884/Temporary/GlobalStyleSet v.2.xml">
+  SavedSource="file:///C:/KSGitDemo/Output/10267884/Temporary/GlobalStyleSet v.2.xml">
   <Media>
     <Medium
       Name="tablet" />
@@ -747,10 +747,10 @@
     <Url
       Source="Resources/TableStyles/Alternate-Row-Color.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 21/Flare.app/Resources/Schemas/xhtml.css" />
+      Source="../../Program Files/MadCap Software/MadCap Flare 21/Flare.app/Resources/Schemas/xhtml.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 21/Flare.app/Resources/Schemas/MadCapEditor.css" />
+      Source="../../Program Files/MadCap Software/MadCap Flare 21/Flare.app/Resources/Schemas/MadCapEditor.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 21/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
+      Source="../../Program Files/MadCap Software/MadCap Flare 21/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
   </SourceUrls>
 </CatapultGlobalStyleCache>
