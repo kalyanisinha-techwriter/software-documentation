@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="6"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="Float">right</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="Copy-Link"
+            Custom="true">
+            <Properties>
+              <Property
+                Name="BackgroundRepeat">no-repeat</Property>
+              <Property
+                Name="BackgroundPosition">center center</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Print">
+            <Properties>
+              <Property
+                Name="ButtonIcon">url('pdf-file-icon_1.png')</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+        <Properties>
+          <Property
+            Name="BorderLeft">none 1px #e1e1e1</Property>
+          <Property
+            Name="BorderRight">none 1px #e1e1e1</Property>
+          <Property
+            Name="BorderTop">none 1px #e1e1e1</Property>
+          <Property
+            Name="BorderBottom">none 1px #e1e1e1</Property>
+          <Property
+            Name="BackgroundGradient">vertical transparent transparent</Property>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+          <Property
+            Name="BoxShadowVShadow">0px</Property>
+          <Property
+            Name="BoxShadowColor">transparent</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="Copy-Link">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="Copy-Link">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+    </Styles>
+    <Stylesheet></Stylesheet>
+    <Resources>
+      <Resource
+        Name="pdf-file-icon.png">H4sIAAAAAAAEAAFHArj9iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB+UlEQVRIiZ2UMWtUQRSFzxkeIiEsIYQgS4pgIRZiI1hJ8BeIhShY+A9srOws/AGW1jYK/gEbC0GxEAUDIaSQEMKyBJFFZEmxhPdZvNkw+/bN27c58HjM3Dvn3DlzZ6wI4Blwy/Y4mZPt6bBUM7bj/5Htf5kcCXgOXM0m5Nc9BF4Cb4CNejwsS9ggIOCHpNeSXgFrFxKIRJcz4b6kEfABeAeszwkAizR6ku7WJ23vx9g9233bh5KeTONFkrhIYEPSpEFgT9JeUuh1SffndtABm5J+d8ib6bYZixbYtCrptEslKc8yFs1Vl0PKtWwXjTrkXcwi24Wqc2iF7RmekAZyNsUFI9sLBWrPy6xFLTvoSxpI+gncAYpcYr3I88S6cg1XJB0AK3H8GDhR1bZD4G8I4fyOZLuoaQdAkHQDuBQJv9n+CmzZ3lJ1u3vAQNJHoEwLzW41kheSHkj6FEI4roWP4ycgAGtN55i1KJLvSDqyXSefge1S0mjKk+2iNADcllQA39vIM4LzAimAa9HfLyGEs2UFUsxZBKwAO7bf286+PUBP1eEPba+rsqgnadzaRbbPbL9tI4+4CTyVNFTVRX9sf5a032qR7UkH8unaA9u7ql7ZQg2vbdeL1oRfkg6BVdsntgeSjiRt5iyaSHpRluU4mWsVb5qLgrvT8X+RhRuPfmSYLwAAAABJRU5ErkJggl53I2FHAgAA</Resource>
+      <Resource
+        Name="pdf-file-icon_1.png">H4sIAAAAAAAEAAG0Akv9iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACZklEQVRIiZWWPagcZRSGn3dYbhW2uEgIFhIkpLCQFGIpQSRYiASEIEGxESNYpQhWIlgIVhbBQoRYWPhXaBUEwVpBBFOIWIkEE8QQ3Ksg13Aei3xznczuzF5fWBjOvOc9v/N9CwOoXVWdU7+pqtvqnrpXVXvt+Y/2u61+r55WmUNGAV4E3gFK/Q2oJDWglEqSXWAXWKkXknwy4q1DXag3WqZnq2pHpaoYZ6me8T/8pZ6fFW9OD1aV6pfbuFV1sqpsfKvqH/W82o25Q0OXBODPbQGS3ElC45NkAbwLnBtXe0/E9nK+l60I2jx6P/VIC/LkZIBG3hpA3Vf/HiTV25fqB+qyty2Gjn3J25DkJvAMcLxpdMBSfSXJsWa/Ns7qRNuKjyeyfqKq3lN3Zyp7v2mc6m1rM5j5cC4Bp9SzM8Xtzw55uBkb8GuSZZI7UwS1xv5rQ57BZ8BJ4If/4bNxTafwnboC7psiJFnTWGvRVBD18STXgLfU43NBhrhnTWfEF+oL6mvAI0k+Va+qDyRZAW8n+XnTDBZjsYkhnwYeBi4lOQH8qL4MrJrGLeCNvgNDjU0f2kHbqmoJPAe8muSrtudfJ1kluR84o+4k+bzvwKFbpB5TP0zyKPAF8HzXdfsD+nXgyqZyh1hb0yS97WngIfUn4EKS/TF3k+94jpMtUj9Kch34Nsnv28Sbz6FadASg67oVcPUwwoMEl5Mv1UVV3WgX/FPqWrlTWbc/C4+pt5r/QaDxpf8ScJm7F8pNoD93pu6Ifl4L4CiwA7ye5M2pAJ36bJKL3D13Nl1IB30ePJf6C3A5yZXhgfgvR5e7iNFBsBYAAAAASUVORK5CYIKULnD3tAIAAA==</Resource>
+    </Resources>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="Print">
+    <Script>/* select the Copy-Link button if you'd like to 
+include a button in your toolbar that will copy the page URL */</Script>
+  </TopicToolbar>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="ToolbarItem">
+            <Classes>
+              <StyleClass
+                Name="Copy-Link">
+                <Properties>
+                  <Property
+                    Name="Tooltip">Copy Page URL</Property>
+                  <Property
+                    Name="AltText">Copy Page URL</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

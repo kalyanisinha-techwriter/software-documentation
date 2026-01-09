@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../Snippets/Header-link-menu.flsnp" />
+        <div class="topic-container">
+            <MadCap:breadcrumbsProxy />
+            <div class="toolbar-container"><a title="Home" href="../../Home.htm"><img class="toolbar-home-icon" src="../Images/Assets/Icons/Toolbar-Buttons/home-icon.png" /></a>
+                <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/Toolbar-Left.flskn" />
+                <div class="search-bar-icon" title="Toggle Search" tabindex="0" role="button" aria-label="Toggle search">
+                    <img src="../Images/Assets/Icons/Toolbar-Buttons/search-button-icon.png" />
+                </div>
+                <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/Toolbar-Right.flskn" />
+            </div>
+            <div class="search-wrapper">
+                <MadCap:searchBarProxy data-mc-skin="/Project/Skins/Topic-Search.flskn" />
+            </div>
+            <MadCap:bodyProxy />
+        </div>
+        <div id="expand-collapse" title="Expand/collapse navigation" class="collapse">
+        </div>
+        <script src="../Scripts/Laguna.js">
+        </script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js">
+        </script>
+        <script src="../Scripts/resize-initializer.js">
+        </script>
+    </body>
+</html>

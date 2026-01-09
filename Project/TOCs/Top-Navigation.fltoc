@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Reference Guides" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    StartSection="false">
+    <TocEntry
+      Title="Template Instructions"
+      FrameName="_blank"
+      ReplaceMergeNode="false"
+      Link="/Content/Laguna Template Instructions.pdf"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Tutorials" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Header-Menu-Topics/Tutorials/Tutorial1.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Header-Menu-Topics/Tutorials/Tutorial2.htm"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Header-Menu-Topics/Tutorials/Tutorial3.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="Contact Sales"
+      Link="/Content/Header-Menu-Topics/Contact/Contact-Sales.htm"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="Contact Support"
+      Link="https://www.madcapsoftware.com/support/contact-options.aspx"
+      FrameName="_blank"
+      ReplaceMergeNode="false"></TocEntry>
+  </TocEntry>
+</CatapultToc>

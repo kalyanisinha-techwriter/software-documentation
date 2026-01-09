@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="6"
+  SkinType="Component"
+  Comment="HTML5 Search Bar skin"
+  ComponentType="SearchBar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Secondary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Bar">
+        <Properties>
+          <Property
+            Name="Height">2.5em</Property>
+          <Property
+            Name="BorderTopLeftRadius">4px</Property>
+          <Property
+            Name="BorderTopRightRadius">4px</Property>
+          <Property
+            Name="BorderBottomRightRadius">4px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">4px</Property>
+          <Property
+            Name="Width">100%</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

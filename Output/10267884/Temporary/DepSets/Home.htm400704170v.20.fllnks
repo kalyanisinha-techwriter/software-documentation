@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="home-topic"
+  FileSearchable="false"
+  MasterPage="file:///C:/Users/10267884/MyCentral/Laguna/Laguna-Template/Content/Resources/TemplatePages/Home-Page.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TemplatePages/Home-Page.flmsp" />
+    <Link
+      Url="Project/Skins/Home-Search.flskn" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-getting-started.png" />
+    <Link
+      Url="Content/A-Introduction-Topics/Getting-Started.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-community.png" />
+    <Link
+      Url="Content/Sample-Landing-Topic.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-submit-request.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-idea-bulb.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-announcement-notice.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-PDFs.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-Videos.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-Download.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-Popular-Topics.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-Forum.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TemplatePages/Home-Page.flmsp" />
+    <Link
+      Url="Project/Skins/Home-Search.flskn" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-getting-started.png" />
+    <Link
+      Url="Content/A-Introduction-Topics/Getting-Started.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-community.png" />
+    <Link
+      Url="Content/Sample-Landing-Topic.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-submit-request.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-idea-bulb.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/icon-announcement-notice.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-PDFs.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-Videos.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-Download.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-Popular-Topics.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Home-Page/Icon-Forum.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

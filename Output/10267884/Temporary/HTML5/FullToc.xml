@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="0">
+    <TocEntry Title="Reference Guides" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" StartSection="false" DescendantCount="0">
+        <TocEntry Title="Template Instructions" FrameName="_blank" ReplaceMergeNode="false" Link="/Content/Laguna Template Instructions.pdf" StartSection="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Contact Us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" DescendantCount="0">
+        <TocEntry Title="Contact Support" Link="https://www.madcapsoftware.com/support/contact-options.aspx" FrameName="_blank" ReplaceMergeNode="false" DescendantCount="0" />
+    </TocEntry>
+</CatapultToc>

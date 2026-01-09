@@ -1,0 +1,1586 @@
+﻿/*<meta />*/
+
+body
+{
+	color: var(--Dark);
+	font-family: var(--FontFamily);
+}
+
+div.body-container
+{
+	padding-left: 0;
+	padding-top: 0;
+	overflow: auto;
+}
+
+span.clear-icon
+{
+	position: absolute;
+	top: 7px;
+	right: 65px;
+	cursor: pointer;
+	color: var(--Dark);
+}
+
+div.home-search-wrapper span.clear-icon
+{
+	top: 11px;
+	right: 70px;
+}
+
+div.sidenav-container
+{
+	display: none;
+}
+
+/* Content */
+
+img
+{
+	border: none;
+	max-width: 100%;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25px;
+}
+
+p.table-text
+{
+	font-size: 12pt;
+}
+
+/* Headings */
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: var(--Primary);
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+/* Home page topic */
+
+div.home-layout
+{
+	padding: 2% 5%;
+	background-color: var(--Lightest);
+}
+
+div.home-section
+{
+	padding: 5% 0;
+	border-bottom: solid 1px var(--Light);
+}
+
+div.home-section h1
+{
+	text-align: center;
+	color: var(--Darkest);
+}
+
+div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 1%;
+	color: var(--Darkest);
+	width: 18%;
+	text-align: center;
+	border-radius: 4px;
+	background-color: var(--Lightest);
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	margin-left: 20%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	margin-left: 3%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	margin-left: 3%;
+}
+
+div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-tiles-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-tiles-layout > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout > div:nth-child(2)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout p
+{
+	line-height: 1.2;
+}
+
+div.home-tile-container
+{
+	background-color: var(--Secondary);
+	padding: 100px 0 60px;
+}
+
+img.home-tile-icon
+{
+	height: 100px;
+	width: auto;
+}
+
+p.tile-title
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: var(--Darkest);
+}
+
+div.faq-section
+{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+}
+
+div.quick-links::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.quick-links::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.quick-links > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.quick-links > div:nth-child(1)
+{
+	width: 16.66666%;
+	margin-left: 2%;
+}
+
+div.quick-links > div:nth-child(2)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(3)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(4)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(5)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
+{
+	text-align: center;
+}
+
+div.two-tiles-home	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+}
+
+div.two-tiles-home::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.two-tiles-home::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.two-tiles-home > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: var(--Secondary);
+	padding: 1%;
+}
+
+div.two-tiles-home > div:nth-child(1)
+{
+	margin-left: 17%;
+	width: 31.5%;
+}
+
+div.two-tiles-home > div:nth-child(2)
+{
+	margin-left: 3%;
+	width: 31.5%;
+}
+
+div.two-tiles-home > div > div img
+{
+	height: 100px;
+	width: auto;
+}
+
+div.two-tiles-home-inner	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.two-tiles-home-inner::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.two-tiles-home-inner::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.two-tiles-home-inner > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.two-tiles-home-inner > div:nth-child(1)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.two-tiles-home-inner > div:nth-child(2)
+{
+	width: 72%;
+	margin-left: 3%;
+}
+
+div.topic-hero
+{
+	padding: 3% 3% 6% 2%;
+	background-image: var(--HeroImage);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+div.topic-hero h1
+{
+	color: var(--Lightest);
+	font-size: 48pt;
+}
+
+html.home-topic	/*Used on home topic to override padding set in the skin*/
+{
+	
+}
+
+html.home-topic div.body-container	/*Overrides padding set in the skin*/
+{
+	padding: 0;
+}
+
+html.home-topic div.main-section > div.outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+html.home-topic nav.sidenav-wrapper	/* Hides side navigation on the home topic */
+{
+	display: none;
+}
+
+div.home-search-wrapper
+{
+	width: 50%;
+}
+
+/* Heading Bookmark Styles*/
+
+.bookmark-hotspot
+{
+	position: relative;
+}
+
+.bookmark-hotspot:hover a.heading-link
+{
+	opacity: 1;
+	background-image: url('../Images/Assets/Icons/Heading-Bookmarks/hovercopy.svg');
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+	width: 25px;
+	margin-left: -25px;
+	display: inline-block;
+}
+
+a.heading-link
+{
+	opacity: 0;
+	text-decoration: none;
+	letter-spacing: 1px;
+	position: relative;
+	display: none;
+}
+
+div#anchor-icon
+{
+	display: inline;
+}
+
+.bookmark-hotspot.active:after
+{
+	font-size: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	content: 'Copied!';
+	background-color: var(--Dark);
+	color: #fff;
+	border-radius: 5px;
+	position: absolute;
+	top: -20px;
+	left: -20px;
+}
+
+h1#results-heading	/* prevent heading in search results from being a bookmark */
+{
+	cursor: auto;
+}
+
+h1#results-heading a.heading-link,
+html.home-topic div.topic-hero h1 a.heading-link	/* prevent heading in search results and home page from being a bookmark */
+{
+	display: none;
+}
+
+/********Custom expand and collapse buttons for Side Navigation********/
+
+div.collapse,
+div.expand
+{
+	position: sticky;
+	top: 0%;
+	left: 0%;
+	width: 30px;
+	height: 30px;
+	background-color: var(--Secondary);
+	/*Set button color*/
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 0px 10px 10px 0px;
+	cursor: pointer;
+	transition: width .25s;
+	background-size: 16px;
+}
+
+div.collapse:hover,
+div.expand:hover
+{
+	width: 33px;
+}
+
+/********Arrow icons for expand/collapse button********/
+
+div.collapse
+{
+	background-image: url('../Images/Assets/Icons/Side-Navigation/collapse-arrow.png');
+}
+
+div.expand
+{
+	background-image: url('../Images/Assets/Icons/Side-Navigation/expand-arrow.png');
+}
+
+/*******Remove body container padding so expand/collapse button is attached to side nav*******/
+
+div.body-container
+{
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 3em;
+}
+
+div.topic-container
+{
+	padding-left: 3em;
+	padding-top: 2em;
+	float: left;
+	width: 100%;
+}
+
+nav.sidenav-wrapper
+{
+	overflow: hidden auto;
+	position: sticky;
+	top: 0;
+}
+
+/*******Add resize icon to side nav*******/
+
+div.ui-resizable-e
+{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Assets/Icons/Side-Navigation/resize-navigation.png');
+	width: 20px !important;
+	background-size: 26px;
+	right: 0px;
+}
+
+/*******Fix resizable side navigation in place for long TOCs *******/
+
+div.sidenav-container
+{
+	height: 100%;
+}
+
+div.sidenav-container,
+nav.sidenav-wrapper
+{
+	overflow: unset;
+}
+
+div.sidenav-container > ul
+{
+	overflow: auto;
+	height: 100%;
+}
+
+/*******Hide bottom-right resize icon*******/
+
+div.ui-resizable-se
+{
+	display: none !important;
+}
+
+div.ui-resizable-s
+{
+	display: none !important;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: var(--Dark);
+	width: 60%;
+	float: left;
+}
+
+/* Links */
+
+a
+{
+	color: var(--Primary);
+}
+
+MadCap|dropDown
+{
+	border-bottom: 1px solid var(--Light);
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	mc-open-image: url('../Images/Minus.png');
+	mc-closed-image: url('../Images/Plus.png');
+	padding: 10px 0;
+}
+
+MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	color: var(--Dark);
+	font-size: 20pt;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+MadCap|expandingBody
+{
+	color: var(--Dark);
+	font-style: italic;
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: var(--Primary);
+}
+
+MadCap|xref
+{
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+	color: var(--Primary);
+}
+
+/* Lists */
+
+dd,
+dd p,
+dt,
+dt p,
+li,
+li p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+dl,
+ol,
+ul
+{
+	letter-spacing: .25px;
+	line-height: 20pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Master page */
+
+div.home-footer
+{
+	background-color: var(--Primary);
+	padding: 2% 5%;
+}
+
+td.home-footer-logo
+{
+	background-image: var(--LogoImage);
+	background-repeat: no-repeat;
+	background-position: right center;
+	width: 400px;
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: var(--Lightest);
+}
+
+p.footer-sub
+{
+	color: var(--Lightest);
+	font-size: 14pt;
+	margin-top: 14px;
+}
+
+MadCap|dropDown.faq
+{
+	background-color: var(--Secondary);
+	padding: 10px 10px 10px 0;
+	margin-bottom: 10px;
+	border-bottom: none;
+}
+
+html.searchTopic div.buttons
+{
+	display: block;
+}
+
+div.search-bar-icon
+{
+	display: inline-block;
+	float: left;
+	margin-right: 35px;
+	width: 22px;
+	cursor: pointer;
+}
+
+nav.title-bar
+{
+	box-shadow: 0px 0px 6px #333;
+}
+
+div.dropDownfaq a.MCHotSpotImage
+{
+	display: block;
+	background-position: right !important;
+}
+
+/********** Back to top button **********/
+
+button#myBtn
+{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: transparent;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: var(--Primary);
+	background-image: url(../Images/up-arrow-white.png);
+}
+
+button#myBtn:hover
+{
+	background-color: var(--Lightest);
+	background-image: url(../Images/up-arrow-primary.png);
+}
+
+div.toolbar-container
+{
+	width: 100%;
+	height: 40px;
+	background-color: var(--Primary);
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position: relative;
+	display: none;
+}
+
+div.buttons._Skins_Toolbar_Right.mc-component
+{
+	display: flex;
+}
+
+/* position next and previous toolbar button */
+
+div.buttons._Skins_Toolbar_Left.mc-component
+{
+	position: absolute;
+	left: 70px;
+	top: 10px;
+}
+
+button.next-topic-button div.button-icon,
+button.previous-topic-button div.button-icon
+{
+	background-size: 20px !important;
+}
+
+/* position home  icon in toolbar */
+
+img.toolbar-home-icon
+{
+	margin-left: 25px;
+}
+
+div.sidenav-container ul.menu li
+{
+	position: relative;
+}
+
+li.has-children.collapsed ul.sub-menu
+{
+	display: none;
+}
+
+li.has-children.expanded ul.sub-menu
+{
+	display: block;
+}
+
+div.header-links-menu > ul > li > a:hover,
+div.header-links-menu > ul > li > a.selected
+{
+	background-color: transparent !important;
+	color: var(--Primary) !important;
+}
+
+div.sidenav-container > ul.sidenav a.selected span.submenu-toggle
+{
+	border-top-color: var(--Lightest);
+}
+
+div.header-links-menu ul.menu._Skins_Header_Menu.mc-component ul > li > a
+{
+	background-color: var(--Lightest);
+}
+
+a:link
+{
+	color: var(--Primary);
+}
+
+a:visited
+{
+	color: var(--Primary);
+}
+
+div.header-links-menu ul.menu._Skins_Header_Menu.mc-component ul > li > a:hover
+{
+	color: #fff;
+	background-color: var(--Primary);
+}
+
+ul.menu._Skins_Header_Menu.mc-component li > a.selected
+{
+	background-color: var(--Primary);
+}
+
+ul.menu._Skins_Header_Menu.mc-component li > ul a.selected
+{
+	background-color: var(--Primary) !important;
+}
+
+ul.sidenav li a:hover span.submenu-toggle,
+ul.off-canvas-list a:hover span.submenu-toggle
+{
+	border-top-color: var(--Lightest) !important;
+}
+
+/* Dropdown indicator for menu items with children */
+
+li.menu-drop-down
+{
+	position: relative;
+	padding-right: 20px;
+}
+
+/* Set icon for Top Navigation menu items with children */
+div.header-links-menu > ul.menu > li.has-children > a:after 
+{
+    content: "";
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background: url('../../Resources/Images/Assets/Icons/Top-Navigation/arrow-down-gray.png') no-repeat 93% center;
+    vertical-align: bottom;
+}
+
+/* add icon for Top Navigation links that are set to open in a new tab */
+div.header-links-menu > ul.menu ul.sub-menu > li > a[target="_blank"]:after 
+{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    background-image: url('../Images/Assets/Icons/Top-Navigation/icon-login.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    vertical-align: 0px;
+}
+
+@media tablet
+{
+	/* Home page topic */
+
+	div.home-search-wrapper
+	{
+		width: 100%;
+	}
+
+	div.home-tiles > div
+	{
+		width: 26%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		margin-left: 9%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		margin-left: 2%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		margin-left: 2%;
+	}
+
+	div.home-tiles-layout > div:nth-child(1)
+	{
+		width: 40%;
+		margin-left: 30%;
+	}
+
+	div.home-tiles-layout > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 24%;
+		margin-left: 0%;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 24%;
+		margin-left: 19%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	html.home-topic div.body-container
+	{
+		margin-left: 0;
+	}
+
+	div.off-canvas-wrapper-inner div.main-section div.outer-row
+	{
+		overflow-y: auto;
+		display: flex;
+		padding-right: 0;
+	}
+
+	div.toolbar-container
+	{
+		position: sticky;
+		top: 85px;
+		z-index: 5;
+		height: 40px;
+	}
+
+	div.faq-section
+	{
+		width: 80%;
+	}
+
+	div.quick-links
+	{
+		width: 80%;
+	}
+
+	div.header-links,
+	div.header-links-menu
+	{
+		order: 1;
+	}
+
+	div.title-bar-layout div.logo-wrapper
+	{
+		flex-basis: auto;
+	}
+
+	div.two-tiles-home > div:nth-child(1)
+	{
+		width: 43%;
+		margin-left: 5.5%;
+	}
+
+	div.two-tiles-home > div:nth-child(2)
+	{
+		width: 43%;
+		margin-left: 3%;
+	}
+
+	div.two-tiles-home-inner > div:nth-child(1)
+	{
+		width: 32%;
+		margin-left: 0%;
+	}
+
+	div.two-tiles-home-inner > div:nth-child(2)
+	{
+		width: 65%;
+		margin-left: 3%;
+	}
+
+	div.topic-container
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	div.body-container
+	{
+		padding-right: 0;
+	}
+
+	/*******Hide expand/collapse icon in tablet and mobile*******/
+
+	div.collapse
+	{
+		display: none;
+	}
+
+	/* Disable hover styles for mobile */
+
+	li.menu-drop-down:hover > ul.sub-menu
+	{
+		display: none !important;
+	}
+
+	/* Show menu when JS adds .open */
+
+	li.menu-drop-down.open > ul.sub-menu
+	{
+		display: block !important;
+	}
+
+	/* Optional: make submenus take full width for touch ease */
+
+	ul.sub-menu
+	{
+		position: static;
+		width: 100%;
+	}
+}
+
+@media mobile
+{
+	/* Home page topic */
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 94%;
+		margin-left: 3%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 5%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 5%;
+	}
+
+	div.home-tiles-layout p
+	{
+		line-height: 1.2;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 49%;
+		margin-left: 25.5%;
+	}
+
+	td.home-footer-logo
+	{
+		padding: 20px;
+		background-origin: content-box;
+		background-size: contain;
+	}
+
+	div.MCBreadcrumbsBox_0
+	{
+		display: none;
+	}
+
+	div.search-wrapper
+	{
+		width: 100%;
+	}
+
+	div.toolbar-container.mobile-active
+	{
+		height: 80px;
+	}
+
+	div.toolbar-container.mobile-active div.search-wrapper
+	{
+		top: 40px;
+		right: 3%;
+		width: 94%;
+		position: absolute;
+		padding-right: 0;
+		margin-top: 0;
+	}
+
+	div.faq-section
+	{
+		width: 100%;
+	}
+
+	div.quick-links
+	{
+		width: 100%;
+	}
+
+	div.topic-hero h1
+	{
+		text-align: center;
+	}
+
+	div.header-links,
+	div.header-links-menu
+	{
+		flex-basis: 100%;
+		justify-content: center;
+	}
+
+	div.header-links-menu
+	{
+		min-width: auto;
+	}
+
+	div.two-tiles-home
+	{
+		margin-top: 25px;
+	}
+
+	div.two-tiles-home > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.two-tiles-home > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 3%;
+	}
+
+	div.two-tiles-home-inner > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.two-tiles-home-inner > div:nth-child(2)
+	{
+		width: 75%;
+		margin-left: 0%;
+	}
+
+	div.header-links-menu > ul > li:nth-child(1) > ul.sub-menu
+	{
+		right: unset;
+		left: 0;
+	}
+
+	div.header-links-menu > ul > li:last-child > ul.sub-menu
+	{
+		right: 0;
+	}
+	
+	div.header-links-menu ul.menu
+	{
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100% !important;
+	}
+	
+	div.header-links-menu > ul > li
+	{
+		flex: 0 1 auto;
+	}
+	
+	div.header-links-menu li.has-children
+	{
+		margin-left: 0;
+	}
+}
+
+@media print
+{
+	/* Links */
+
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+
+	div.toolbar-container,
+	div.search-wrapper,
+	div.feedback-wrapper,
+	div#expand-collapse,
+	div.breadcrumbs
+	{
+		display: none !important;
+	}
+}
+
+@media html5
+{
+	/*============================================================================================================================================================================================================
+This is a custom stylesheet medium used to correct the display of certain elements that could otherwise appear incorrectly in the XML Editor.
+The medium is assigned to the target under the Advanced tab in the Stylesheet Medium section. This approach ensures that elements are styled appropriately in the built output, while still displaying cleanly in the XML Editor - which uses the Default medium for preview.
+================================================================================================================================================================================================================*/
+
+	/*==============================
+	=         HEADER MENU          =
+	==============================*/
+
+	/* Container layout for header menu */
+
+	div.header-links,
+	div.header-links-menu
+	{
+		display: flex;
+		order: 3;
+		flex: 0 1 auto;
+	}
+
+	/* Minimum width for menu section */
+
+	div.header-links-menu
+	{
+		min-width: 500px;
+	}
+
+	/* Top-level header menu list */
+
+	div.header-links > ul,
+	div.header-links-menu > ul
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		list-style: none;
+	}
+
+	/* General reset for all ULs inside header */
+
+	div.header-links ul,
+	div.header-links-menu ul
+	{
+		list-style: none;
+	}
+
+	/* Main menu bar styling */
+
+	div.header-links-menu ul.menu
+	{
+		width: 90% !important;
+		z-index: 9999;
+		position: relative;
+		overflow-y: unset;
+	}
+
+
+	/* Hide nested submenus by default */
+
+	div.header-links > ul > li > ul,
+	div.header-links-menu > ul > li > ul
+	{
+		display: none;
+		position: absolute;
+		right: -30px;
+		top: 100%;
+		list-style: none;
+	}
+
+	/* Show submenus on hover */
+
+	li.menu-drop-down:hover > ul
+	{
+		display: inline-block;
+		position: absolute;
+		width: 200px;
+		z-index: 1000;
+		box-shadow: 2px 2px 9px var(--Dark);
+	}
+
+	/* Selected submenu handling */
+
+	ul.hovered
+	{
+		display: block !important;
+	}
+
+	ul.hovered li,
+	ul.hovered p
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	ul.hovered a
+	{
+		display: block;
+	}
+
+	ul.hovered a:hover
+	{
+		background-color: var(--Primary);
+	}
+
+	/* Show submenu when the parent li has the 'open' class (for keyboard/JS control) */
+
+	li.menu-drop-down.open > ul
+	{
+		display: inline-block;
+		position: absolute;
+		width: 200px;
+		z-index: 1000;
+		box-shadow: 2px 2px 9px var(--Dark);
+	}
+
+	/* Nested submenu positioning (open left) */
+
+	div.header-links > ul > li > ul > li.menu-drop-down > ul,
+	div.header-links > ul > li > ul > li.menu-drop-down > ul > li > ul
+	{
+		left: -100%;
+		top: 0;
+		display: none;
+	}
+
+	div.header-links > ul > li > ul > li.menu-drop-down > ul:hover,
+	div.header-links-menu > ul > li > ul > li.menu-drop-down > ul:hover
+	{
+		display: inline-block;
+		left: -100%;
+	}
+
+	/* Nested header-links-menu submenu styling */
+
+	div.header-links-menu li.has-children
+	{
+		margin-left: 25px;
+		padding-right: 25px;
+	}
+
+	div.header-links-menu li
+	{
+		flex: 1 0 auto;
+	}
+
+	div.header-links-menu ul ul li.has-children
+	{
+		background-color: var(--Lightest);
+		margin-left: 0;
+	}
+
+	div.header-links-menu ul ul li.has-children ul.sub-menu
+	{
+		left: -100%;
+		position: absolute;
+		top: 10px;
+	}
+
+	div.header-links-menu ul ul li.menu-drop-down
+	{
+		position: relative;
+		background: url('../Images/Assets/Icons/Top-Navigation/arrow-down-gray.png') no-repeat 96% center;
+	}
+
+	/* Menu links */
+
+	div.header-links ul a
+	{
+		text-decoration: none;
+		color: #fff;
+		cursor: pointer;
+		padding: 10px;
+	}
+
+	/*==============================
+	=          TOOLBAR             =
+	==============================*/
+
+	/* Toolbar layout */
+
+	div._Skins_Toolbar_Right button
+	{
+		position: relative;
+	}
+
+	div._Skins_Toolbar_Right.buttons button.button > div
+	{
+		display: block;
+		margin: unset;
+	}
+
+	/* Copy URL button icon */
+
+	button.copy-link-button div.button-icon
+	{
+		background-image: url('../Images/Assets/Icons/Toolbar-Buttons/copy-url-icon.png');
+		background-repeat: no-repeat;
+		background-size: 20px;
+		background-position: left center !important;
+	}
+
+	/* Toolbar button text labels */
+
+	div._Skins_Toolbar_Right button::after
+	{
+		color: var(--Lightest);
+		position: absolute;
+		left: 24px;
+		top: 2px;
+	}
+
+	button.button.needs-pie.copy-link-button::after
+	{
+		content: 'Copy URL';
+	}
+
+	button.button.needs-pie.print-button::after
+	{
+		content: 'Print';
+		left: 28px;
+	}
+
+	/* Width adjustments */
+
+	div._Skins_Toolbar_Right button.copy-link-button
+	{
+		width: 115px !important;
+	}
+
+	div._Skins_Toolbar_Right button.print-button
+	{
+		width: 75px !important;
+	}
+
+	/* "Copied!" tooltip styling when copy link url is clicked */
+
+	button.copy-link-button.active:after
+	{
+		font-size: 10px;
+		margin-left: 10px;
+		padding: 5px;
+		content: 'Copied!';
+		background-color: var(--Dark);
+		color: #fff;
+		border-radius: 5px;
+		position: absolute;
+		top: -20px;
+		left: -20px;
+	}
+
+	/* Search bar alignment */
+
+	div.search-bar._Skins_Topic_search.mc-component
+	{
+		display: inline-block;
+		float: right;
+	}
+
+	div.search-wrapper
+	{
+		display: none;
+		/*position: absolute;
+		right: 285px;
+		top: 4px;*/
+		margin-top: -4px;
+		padding-right: 20px;
+	}
+
+	/* Clear floats */
+
+	div#mc-main-content,
+	div.search-wrapper
+	{
+		clear: both;
+	}
+
+	/* Layout for landing pages */
+
+	div.quick-links
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+
+	div.two-tiles-home
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	div.home-tiles
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	div.home-tiles > div[onclick]
+	{
+		cursor: pointer;
+	}
+
+	div.home-tiles > div[onclick]:hover
+	{
+		box-shadow: 2px 3px 9px #ccc;
+	}
+}

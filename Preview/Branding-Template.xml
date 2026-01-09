@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<BrandingTemplate Name="Laguna" >
+	<Property Name="Primary"	Type="Color"	Group="Colors"  DefaultValue="#002F5F" />
+	<Property Name="Secondary"  Type="Color"	Group="Colors"  DefaultValue="#F5F7FA" />
+	<Property Name="Lightest"	Type="Color"	Group="Colors"  DefaultValue="#FFFFFF" />
+	<Property Name="Light"      Type="Color"	Group="Colors"  DefaultValue="#DADEE1" />
+	<Property Name="Medium"     Type="Color"	Group="Colors"  DefaultValue="#A4AAAE" />
+	<Property Name="Dark"       Type="Color"	Group="Colors"  DefaultValue="#45494C" />
+	<Property Name="Darkest"    Type="Color"	Group="Colors"  DefaultValue="#1A1A1A" />
+	<Property Name="Header"	    Type="Color"	Group="Colors"  DefaultValue="#FFFFFF" />
+	<Property Name="FontFamily" Type="Font"		Group="Font"    DefaultValue="Arial, Avenir, Myriad" />
+	<Property Name="LogoImage"  Type="Image"	Group="Images"  DefaultValue="url('Logo.png')"/>
+	<Property Name="HeroImage"  Type="Image"	Group="Images"  DefaultValue="url('Hero-Image.jpg')"/>
+</BrandingTemplate>

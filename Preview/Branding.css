@@ -1,0 +1,16 @@
+/* MadCap-Branding */
+
+:root 
+{
+	--Primary: #002F5F;
+	--Secondary: #F5F7FA;
+	--Dark: #45494C;
+	--Darkest: #1A1A1A;
+	--Light: #DADEE1;
+	--Lightest: #FFFFFF;
+	--Medium: #A4AAAE;
+	--Header: #FFFFFF;
+	--HeroImage: url('Hero-Image.jpg');
+	--FontFamily: Arial, Avenir, Myriad;
+	--LogoImage: url('Logo.png');
+}

@@ -1,0 +1,607 @@
+body
+{
+	background-color: #f0f0f0;
+	margin:0px;
+	font-family: arial;
+	overflow: hidden;
+	filter: blur(.035em);
+}
+
+h1
+{
+	font-size: 20px;
+}
+
+h2
+{
+	font-size: 12px;
+	text-align: center;
+}	
+
+p
+{
+	font-size: 6px;
+	margin: 0px 15% 0px 15%;
+}
+
+input
+{
+	font-size: 8px;
+	display: table-cell;
+    vertical-align: middle
+}
+
+.input_wrapper
+{
+
+	clear: center;
+}
+
+.Darkest_bg
+{
+	background-color:  var(--Darkest);
+}
+
+.Darkest_col
+{
+	color:  var(--Darkest);
+}
+
+.Primary_bg
+{
+	background-color: var(--Primary);
+}
+
+.Primary_col
+{
+	color: var(--Primary);
+}
+
+.Primary_bord_col
+{
+	border-color: var(--Primary);
+}
+
+.Secondary_bg
+{
+	background-color: var(--Secondary);
+}
+
+.Secondary_col
+{
+	color: var(--Secondary);
+}
+
+.Secondary_bord_col
+{
+	border-color: var(--Secondary);
+}
+
+.Dark_bg
+{
+	background-color: var(--Dark);
+}
+
+.Dark_col
+{
+	color: var(--Dark);
+}
+
+.Dark_bord_col
+{
+	border-color: var(--Dark);
+}
+
+.Light_bg 
+{
+	background-color: var(--Light);
+}
+
+.Light_col 
+{
+	color: var(--Light);
+}
+
+.Light_bord_col 
+{
+	border-color: var(--Light);
+}
+
+.Medium_bg 
+{
+	background-color: var(--Medium);
+}
+
+.Medium_col 
+{
+	color: var(--Medium);
+}
+
+.Medium_bord_col 
+{
+	border-color: var(--Medium);
+}
+
+.Header_bg
+{
+	background-color: var(--Header);
+}
+
+.Lightest_col
+{
+	color: var(--Lightest);
+}
+
+.Lightest_bg
+{
+	background-color: var(--Lightest);
+}
+
+.Lightest_bord_col
+{
+	border-color: var(--Lightest);
+}
+
+#main_area 
+{
+    width: 880px;
+    height: 800px;
+    transform-origin: left top;
+}
+
+#computer
+{
+	background: url('Computer-1.png') no-repeat;
+	width:796px;
+	height: 440px;
+	position: relative;
+}
+
+#computer h1
+{
+	font-size:20px;
+	margin: 40px 0px 15px 0px;
+}
+
+#inside_computer
+{
+	position: relative;
+	left: 126px;
+	top: 33px;
+	width: 544px;
+	height: 340px;
+}
+
+#iphone
+{
+	background: url('iPhone.png') no-repeat;
+	width:144px;
+	height: 288px;
+	position: absolute;
+	left:715px;
+	top:20px;
+}
+
+#inside_iphone
+{
+	position: relative;
+	left: 10px;
+	top: 36px;
+	width: 123px;
+	height: 216px;
+}
+
+#iphone h1
+{
+	font-size:16px;
+	margin: 14px 0px 8px 0px;
+}
+
+#ipad
+{
+	background: url('iPad.png') no-repeat;
+	width:355px;
+	height: 491px;
+	position: absolute;
+	left:499px;
+	top:324px;
+}
+
+#inside_ipad
+{
+	position: relative;
+	left: 19px;
+	top: 33px;
+	width: 294px;
+	height: 393px;
+}
+
+#ipad h1
+{
+	font-size:20px;
+	margin: 40px 0px 15px 0px;
+}
+
+#table_area
+{
+	width:400px;
+
+	position: absolute;
+	left:55px;
+	top:480px;
+	border: 1px solid gray;
+}
+
+.LogoImage_img
+{
+	position: relative;
+	left: 5px;
+	top: 5%;
+	height: 85%;
+	width: auto;
+	background-image: var(--LogoImage);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+
+.HeroImage_img
+{
+	background: #818181 no-repeat;
+	background-size: cover;
+	background-image: var(--HeroImage);
+}
+
+.centered_image
+{
+	background-position:center;
+}
+
+.centered
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.quick_links
+{
+	width: 100%;
+	text-align:center;
+}
+
+.quick_links img
+{
+	max-width: 48px;
+	text-align:center;
+	height: auto;
+}
+
+.general_area
+{
+	width: 100%;
+	text-align:center;
+}
+
+.crouton_wrapper
+{
+	display: flex;	
+	margin: 5px 70px 5px 70px;
+}
+
+.crouton
+{
+	margin: 10px auto 10px auto;
+	width: 95px;
+}
+
+.crouton p
+{
+	font-size: 8px;
+}
+
+#computer_top_banner
+{
+	height:30px;
+}
+
+#computer_hero_area
+{
+	text-align:center;
+	position:absolute;
+	height:150px;
+	width: 100%;
+}	
+
+#computer_quick_links
+{
+	height:88px;
+	position:absolute;
+	top: 180px;
+}
+
+#computer_general_area
+{
+	height:73px;
+	position:absolute;
+	top: 268px;
+}
+
+#computer_search_bar
+{
+	width: 300px;
+}
+
+#ipad_top_banner
+{
+	height:36px;
+}
+
+#ipad_hero_area
+{
+	text-align:center;
+	position:absolute;
+	top:36px;
+	height:163px;
+	width: 100%;
+}	
+
+#ipad_quick_links
+{
+	position:absolute;
+	top: 199px;
+	height:96px;
+}
+
+#ipad_quick_links .crouton_wrapper
+{
+	margin: 6px;
+}
+
+#ipad_search_bar
+{
+	width: 190px;
+	height:14px;
+}
+
+#ipad_general_area
+{
+	height:96px;
+	position:absolute;
+	top: 295px;
+}
+
+#iphone_top_banner
+{
+	height:24px;
+}
+
+#iphone_hero_area
+{
+	text-align:center;
+	position:absolute;
+	top:24px;
+	height:98px;
+	width: 100%;
+}	
+
+#iphone_search_bar
+{
+	width: 100px;
+	height:14px;
+}	
+
+#iphone_quick_links
+{
+	position:absolute;
+	top: 116px;
+	height:102px;
+}
+
+#iphone_quick_links .crouton img
+{
+	width: 30px;
+}
+
+#iphone_quick_links .crouton p
+{
+	font-size: 5.5px;
+}
+
+#pdf
+{
+	position: absolute;
+	left:494px;
+	top:268px;
+	width:353px;
+	height: 449px;
+	border: 1px solid gray;
+}
+
+#pdf_top_banner
+{
+	width: 353px;
+	height: 64px;
+}
+
+#pdf_main_area
+{
+	position: absolute;
+	top: 64px;
+	width: 353px;
+	height: 280px;
+}
+
+#pdf_main_area h1
+{
+	margin: 42px 42px 90px 42px;
+	font-size: 32px;
+	font-weight: normal;
+}
+
+#pdf_main_area p
+{
+	border-top: 1px solid white;
+	padding-top: 10px;
+	margin: 42px;
+	line-height: 10px;
+}
+
+#pdf_main_area a
+{
+	font-weight: bold;
+}
+
+#pdf_footer
+{
+	position: absolute;
+	top: 344px;
+	width: 353px;
+	height: 105px;
+}
+
+#print
+{
+	position: absolute;
+	
+	left: 66px;
+	top: 72px;
+	width: 740px;
+	height: 480px;
+	border: 1px solid grey;
+}
+
+#print_left
+{
+	position: absolute;
+	width: 370px;
+	height: 480px;
+	border-right: 1px solid grey;
+}
+
+#print_right
+{
+	position: absolute;
+	left: 370px;
+	width: 370px;
+	height: 480px;
+	border-right: 1px solid grey;
+}
+
+#print h1
+{
+	font-size: 20px;
+	margin: 56px 46px 10px 46px;
+}
+
+#print p
+{
+	margin: 0px 46px 0px 46px;
+}
+
+#print p.footer	
+{
+	position: absolute;
+	top: 415px;
+	width: 270px;
+	border-top: 1px solid grey;
+	padding-top: 10px;
+	font-size: 9px;
+	text-transform: uppercase;
+	
+}
+
+#print ul
+{
+	margin:0px;
+	padding:0px 0px 0px 26px;		
+}
+
+#print li
+{
+	list-style: none;
+	font-size: 9pt;
+	line-height: 12pt;		
+}
+
+#print_table_wrapper
+{
+	margin: 0px 10px 0px 30px;
+}
+
+ul.leaders 
+{
+	max-width: 16.3em;
+	overflow-x: hidden;
+	list-style: none
+}
+
+ul.leaders li:before
+{
+
+	float: left;
+	width: 0;
+	white-space: nowrap;
+	content:
+	". . . . . . . . . . . . . . . . . . . . "
+	". . . . . . . . . . . . . . . . . . . . ";
+}
+
+ul.leaders span:first-child 
+{
+	padding-right: 0.33em;
+	background: transparent;
+}
+
+ul.leaders span + span 
+{
+	float: right;
+	padding-left: 0.33em;
+	background: transparent;
+}
+
+table
+{
+	width: 100%;
+	border-spacing: 1px;
+	border-color: transparent;
+	outline: 2px solid white;
+	outline-offset: -2px;
+}
+
+th
+{
+	font-size: 8pt;
+	height: 20px;
+}
+
+td
+{
+	padding: 5px;
+	height: 30px;
+}
+
+table p
+{
+	margin: 5px;
+}
+/*
+.Table-Header-Style
+{
+	color: #076685;
+	color: var(--Primary);
+	background-color: #076685;
+	background-color: var(--Primary);
+}
+*/
+
+.radio_button
+{
+	width: 8px;
+	padding-right: 0px;
+}
+
+label
+{
+	font-size: 7px;
+}
+

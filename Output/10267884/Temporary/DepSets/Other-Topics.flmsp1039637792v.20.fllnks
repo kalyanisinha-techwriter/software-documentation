@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+    <Link
+      Url="Content/Resources/Snippets/Header-link-menu.flsnp" />
+    <Link
+      Url="Content/Home.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Toolbar-Buttons/home-icon.png" />
+    <Link
+      Url="Project/Skins/Toolbar-Left.flskn" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Toolbar-Buttons/search-button-icon.png" />
+    <Link
+      Url="Project/Skins/Toolbar-Right.flskn" />
+    <Link
+      Url="Project/Skins/Topic-Search.flskn" />
+    <Link
+      Url="Content/Resources/Scripts/Laguna.js" />
+    <Link
+      Url="https://code.jquery.com/ui/1.13.2/jquery-ui.js" />
+    <Link
+      Url="Content/Resources/Scripts/resize-initializer.js" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+    <Link
+      Url="Content/Resources/Snippets/Header-link-menu.flsnp" />
+    <Link
+      Url="Content/Home.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Toolbar-Buttons/home-icon.png" />
+    <Link
+      Url="Project/Skins/Toolbar-Left.flskn" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Toolbar-Buttons/search-button-icon.png" />
+    <Link
+      Url="Project/Skins/Toolbar-Right.flskn" />
+    <Link
+      Url="Project/Skins/Topic-Search.flskn" />
+    <Link
+      Url="Content/Resources/Scripts/Laguna.js" />
+    <Link
+      Url="https://code.jquery.com/ui/1.13.2/jquery-ui.js" />
+    <Link
+      Url="Content/Resources/Scripts/resize-initializer.js" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

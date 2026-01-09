@@ -1,0 +1,19 @@
+/*<meta />*/
+
+/* MadCap-Branding templates:Templates/Projects/Laguna.flprj/ */
+
+:root
+{
+	--Light: #DADEE1;
+	--Medium: #A4AAAE;
+	--LogoImage: url('../Images/PlaceholderLogo-gray.png');
+	--HeroImage: url('../Images/Home-Hero-Image.jpg');
+	--FontFamily: Arial, Avenir, Myriad;
+	--Dark: #45494C;
+	--Darkest: #1A1A1A;
+	--Lightest: #FFFFFF;
+	--Header: #FFFFFF;
+	--Primary: #002F5F;
+	--Secondary: #F5F7FA;
+}
+

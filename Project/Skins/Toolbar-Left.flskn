@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="6"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="arrow-left.png">H4sIAAAAAAAEAAF5AYb+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABK0lEQVRIia2WT0rDQBhHg7jwBCKewIWEUIJn8ADiQkoRKd7Oc0jxEFJK6QFKCQF5z4UZnaaJi8x8EBKy+L3Jyzd/iiKh1Fp9U69TcoaCC7VSt/7Uh3qVE1ABG49rlQWi3gE7QEDV7nkP3KcEBy07T6tRH4CzFEClbnqjDuHzycFdeK1uQ2gUflCfUoILtYy6pa9lrk7XApTqOmgJatRWXU4O7kY/i7VE3htgkRIctPT7XLUFFkla1FvgM5eW84F3X931+0XR/WLiuP9KLYAbYD2iaJmkKAKV6gkEaNSXZEAHOfof0SRrgdccgP8mWnpHhQJmAdLrroOp61AEqYD1gK5GfU4GdLoqYGxdeszVXfWIrr06fcOJa0TXO3CZBTCga5UtvAcKx5bRzf4bcqKfkz9BoSwAAAAASUVORK5CYIKa347teQEAAA==</Resource>
+      <Resource
+        Name="arrow-right.png">H4sIAAAAAAAEAAF6AYX+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABLElEQVRIibWVwWoCMRRFo/QLil8iRUSK9AO6KCLioj/YRb+hlH5KERlmIUXE3TldOGnHaWYzSR9kE8K7eYebmxB6Sp2oL+p935nBBdyq716qVudqmebNzd8AW7VX50UEgAfgKwoAcdVFcAFBfVRP/q1yuNR1j8heneUrXERWwDGBq1IXJQTG6ho4Jyap1FkpXM/qOU4RC9gBZXABm4irsyog38LqGNjESRK47v4b16c67Z6/GTJJYi+MRqMQQmDYtcOPo7Y9iPbqNAuRumm/iRaiytycArbAKTqn1XyX9aob56xMREYTfnkPTX0Cjp3GqjWQl6zAOoUFyPsb1BjXVzePWIAFDHdjUJfqIWHFWl0O7/wrcPVltvImP55jNZ/+RxtLllt6RCbqay6Wb6Y+nqvS2K7UAAAAAElFTkSuQmCC5J4Nc3oBAAA=</Resource>
+    </Resources>
+    <Styles>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="PreviousTopic">
+            <Properties>
+              <Property
+                Name="ButtonIcon">url('arrow-left.png')</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BoxShadowColor">transparent</Property>
+              <Property
+                Name="BorderLeft">none 1px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">none 1px #e1e1e1</Property>
+              <Property
+                Name="BorderTop">none 1px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">none 1px #e1e1e1</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="NextTopic">
+            <Properties>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="BorderLeft">none 1px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">none 1px #e1e1e1</Property>
+              <Property
+                Name="BorderTop">none 1px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">none 1px #e1e1e1</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BoxShadowColor">transparent</Property>
+              <Property
+                Name="ButtonIcon">url('arrow-right.png')</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="PreviousTopic|NextTopic" />
+  <Strings />
+</CatapultSkin>
