@@ -442,6 +442,66 @@ div.MCBreadcrumbsBox_0
 	margin-bottom: 10px;
 }
 
+.dropDown
+{
+	border-bottom: 1px solid #DADEE1;
+	padding: 10px 0;
+}
+
+.dropDown.dropDownfaq
+{
+	background-color: #F5F7FA;
+	padding: 10px 10px 10px 0;
+	margin-bottom: 10px;
+	border-bottom: none;
+}
+
+.dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	color: #45494C;
+	font-size: 20pt;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+.dropDownHotspot:link
+{
+	cursor: hand;
+	text-decoration: none;
+	color: #45494C;
+	font-size: 20pt;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_faq
+{
+	background-position: left;
+	background-image: url('Minus.png');
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_faq
+{
+	background-position: left;
+	background-image: url('Plus.png');
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.dropDownHead
+{
+	text-decoration: none;
+}
+
+.dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
 .MCWebHelpFramesetLink a
 {
 	

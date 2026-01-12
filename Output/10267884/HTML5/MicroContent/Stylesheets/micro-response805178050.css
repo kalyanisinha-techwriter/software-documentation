@@ -2,7 +2,7 @@
 
 /* MadCap-Branding templates:Templates/Projects/Laguna.flprj/ */
 
-.micro-response-1074497519 :root
+.micro-response805178050 :root
 {
 	--Light: #DADEE1;
 	--Medium: #A4AAAE;
@@ -19,20 +19,20 @@
 
 @namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 
-.micro-response-1074497519
+.micro-response805178050
 {
 	color: #45494C;
 	font-family: Arial, Avenir, Myriad;
 }
 
-.micro-response-1074497519 div.body-container
+.micro-response805178050 div.body-container
 {
 	padding-left: 0;
 	padding-top: 0;
 	overflow: auto;
 }
 
-.micro-response-1074497519 span.clear-icon
+.micro-response805178050 span.clear-icon
 {
 	position: absolute;
 	top: 7px;
@@ -41,26 +41,26 @@
 	color: #45494C;
 }
 
-.micro-response-1074497519 div.home-search-wrapper span.clear-icon
+.micro-response805178050 div.home-search-wrapper span.clear-icon
 {
 	top: 11px;
 	right: 70px;
 }
 
-.micro-response-1074497519 div.sidenav-container
+.micro-response805178050 div.sidenav-container
 {
 	display: none;
 }
 
 /* Content */
 
-.micro-response-1074497519 img
+.micro-response805178050 img
 {
 	border: none;
 	max-width: 100%;
 }
 
-.micro-response-1074497519 p
+.micro-response805178050 p
 {
 	font-size: 12.0pt;
 	margin-top: 20px;
@@ -69,45 +69,45 @@
 	letter-spacing: 0.25px;
 }
 
-.micro-response-1074497519 p.table-text
+.micro-response805178050 p.table-text
 {
 	font-size: 12pt;
 }
 
 /* Headings */
 
-.micro-response-1074497519 h1
+.micro-response805178050 h1
 {
 	font-weight: bold;
 	font-size: 24.0pt;
 	color: #002F5F;
 }
 
-.micro-response-1074497519 h2
+.micro-response805178050 h2
 {
 	font-weight: bold;
 	font-size: 18.0pt;
 }
 
-.micro-response-1074497519 h3
+.micro-response805178050 h3
 {
 	font-weight: bold;
 	font-size: 14.0pt;
 }
 
-.micro-response-1074497519 h4
+.micro-response805178050 h4
 {
 	font-weight: bold;
 	font-size: 12.0pt;
 }
 
-.micro-response-1074497519 h5
+.micro-response805178050 h5
 {
 	font-weight: bold;
 	font-size: 10.0pt;
 }
 
-.micro-response-1074497519 h6
+.micro-response805178050 h6
 {
 	font-weight: bold;
 	font-size: 8.0pt;
@@ -115,25 +115,25 @@
 
 /* Home page topic */
 
-.micro-response-1074497519 div.home-layout
+.micro-response805178050 div.home-layout
 {
 	padding: 2% 5%;
 	background-color: #FFFFFF;
 }
 
-.micro-response-1074497519 div.home-section
+.micro-response805178050 div.home-section
 {
 	padding: 5% 0;
 	border-bottom: solid 1px #DADEE1;
 }
 
-.micro-response-1074497519 div.home-section h1
+.micro-response805178050 div.home-section h1
 {
 	text-align: center;
 	color: #1A1A1A;
 }
 
-.micro-response-1074497519 div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+.micro-response805178050 div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
 {
 	mc-grid-row: true;
 	margin-left: auto;
@@ -141,20 +141,20 @@
 	margin-bottom: 3%;
 }
 
-.micro-response-1074497519 div.home-tiles::before
+.micro-response805178050 div.home-tiles::before
 {
 	content: ' ';
 	display: table;
 }
 
-.micro-response-1074497519 div.home-tiles::after
+.micro-response805178050 div.home-tiles::after
 {
 	content: ' ';
 	display: table;
 	clear: both;
 }
 
-.micro-response-1074497519 div.home-tiles > div
+.micro-response805178050 div.home-tiles > div
 {
 	float: left;
 	-moz-box-sizing: border-box;
@@ -167,78 +167,78 @@
 	background-color: #FFFFFF;
 }
 
-.micro-response-1074497519 div.home-tiles > div:nth-child(1)
+.micro-response805178050 div.home-tiles > div:nth-child(1)
 {
 	margin-left: 20%;
 }
 
-.micro-response-1074497519 div.home-tiles > div:nth-child(2)
+.micro-response805178050 div.home-tiles > div:nth-child(2)
 {
 	margin-left: 3%;
 }
 
-.micro-response-1074497519 div.home-tiles > div:nth-child(3)
+.micro-response805178050 div.home-tiles > div:nth-child(3)
 {
 	margin-left: 3%;
 }
 
-.micro-response-1074497519 div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+.micro-response805178050 div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
 {
 	mc-grid-row: true;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.micro-response-1074497519 div.home-tiles-layout::before
+.micro-response805178050 div.home-tiles-layout::before
 {
 	content: ' ';
 	display: table;
 }
 
-.micro-response-1074497519 div.home-tiles-layout::after
+.micro-response805178050 div.home-tiles-layout::after
 {
 	content: ' ';
 	display: table;
 	clear: both;
 }
 
-.micro-response-1074497519 div.home-tiles-layout > div
+.micro-response805178050 div.home-tiles-layout > div
 {
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-.micro-response-1074497519 div.home-tiles-layout > div:nth-child(1)
+.micro-response805178050 div.home-tiles-layout > div:nth-child(1)
 {
 	width: 33.33333%;
 	margin-left: 0%;
 }
 
-.micro-response-1074497519 div.home-tiles-layout > div:nth-child(2)
+.micro-response805178050 div.home-tiles-layout > div:nth-child(2)
 {
 	width: 66.66667%;
 	margin-left: 0%;
 }
 
-.micro-response-1074497519 div.home-tiles-layout p
+.micro-response805178050 div.home-tiles-layout p
 {
 	line-height: 1.2;
 }
 
-.micro-response-1074497519 div.home-tile-container
+.micro-response805178050 div.home-tile-container
 {
 	background-color: #F5F7FA;
 	padding: 100px 0 60px;
 }
 
-.micro-response-1074497519 img.home-tile-icon
+.micro-response805178050 img.home-tile-icon
 {
 	height: 100px;
 	width: auto;
 }
 
-.micro-response-1074497519 p.tile-title
+.micro-response805178050 p.tile-title
 {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -246,74 +246,74 @@
 	color: #1A1A1A;
 }
 
-.micro-response-1074497519 div.faq-section
+.micro-response805178050 div.faq-section
 {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.micro-response-1074497519 div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+.micro-response805178050 div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
 {
 	mc-grid-row: true;
 }
 
-.micro-response-1074497519 div.quick-links::before
+.micro-response805178050 div.quick-links::before
 {
 	content: ' ';
 	display: table;
 }
 
-.micro-response-1074497519 div.quick-links::after
+.micro-response805178050 div.quick-links::after
 {
 	content: ' ';
 	display: table;
 	clear: both;
 }
 
-.micro-response-1074497519 div.quick-links > div
+.micro-response805178050 div.quick-links > div
 {
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-.micro-response-1074497519 div.quick-links > div:nth-child(1)
+.micro-response805178050 div.quick-links > div:nth-child(1)
 {
 	width: 16.66666%;
 	margin-left: 2%;
 }
 
-.micro-response-1074497519 div.quick-links > div:nth-child(2)
+.micro-response805178050 div.quick-links > div:nth-child(2)
 {
 	width: 16.66666%;
 	margin-left: 3%;
 }
 
-.micro-response-1074497519 div.quick-links > div:nth-child(3)
+.micro-response805178050 div.quick-links > div:nth-child(3)
 {
 	width: 16.66666%;
 	margin-left: 3%;
 }
 
-.micro-response-1074497519 div.quick-links > div:nth-child(4)
+.micro-response805178050 div.quick-links > div:nth-child(4)
 {
 	width: 16.66666%;
 	margin-left: 3%;
 }
 
-.micro-response-1074497519 div.quick-links > div:nth-child(5)
+.micro-response805178050 div.quick-links > div:nth-child(5)
 {
 	width: 16.66666%;
 	margin-left: 3%;
 }
 
-.micro-response-1074497519 div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
+.micro-response805178050 div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
 {
 	text-align: center;
 }
 
-.micro-response-1074497519 div.two-tiles-home	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+.micro-response805178050 div.two-tiles-home	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
 {
 	mc-grid-row: true;
 	margin-left: auto;
@@ -321,20 +321,20 @@
 	margin-top: 75px;
 }
 
-.micro-response-1074497519 div.two-tiles-home::before
+.micro-response805178050 div.two-tiles-home::before
 {
 	content: ' ';
 	display: table;
 }
 
-.micro-response-1074497519 div.two-tiles-home::after
+.micro-response805178050 div.two-tiles-home::after
 {
 	content: ' ';
 	display: table;
 	clear: both;
 }
 
-.micro-response-1074497519 div.two-tiles-home > div
+.micro-response805178050 div.two-tiles-home > div
 {
 	float: left;
 	-moz-box-sizing: border-box;
@@ -343,64 +343,64 @@
 	padding: 1%;
 }
 
-.micro-response-1074497519 div.two-tiles-home > div:nth-child(1)
+.micro-response805178050 div.two-tiles-home > div:nth-child(1)
 {
 	margin-left: 17%;
 	width: 31.5%;
 }
 
-.micro-response-1074497519 div.two-tiles-home > div:nth-child(2)
+.micro-response805178050 div.two-tiles-home > div:nth-child(2)
 {
 	margin-left: 3%;
 	width: 31.5%;
 }
 
-.micro-response-1074497519 div.two-tiles-home > div > div img
+.micro-response805178050 div.two-tiles-home > div > div img
 {
 	height: 100px;
 	width: auto;
 }
 
-.micro-response-1074497519 div.two-tiles-home-inner	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+.micro-response805178050 div.two-tiles-home-inner	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
 {
 	mc-grid-row: true;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.micro-response-1074497519 div.two-tiles-home-inner::before
+.micro-response805178050 div.two-tiles-home-inner::before
 {
 	content: ' ';
 	display: table;
 }
 
-.micro-response-1074497519 div.two-tiles-home-inner::after
+.micro-response805178050 div.two-tiles-home-inner::after
 {
 	content: ' ';
 	display: table;
 	clear: both;
 }
 
-.micro-response-1074497519 div.two-tiles-home-inner > div
+.micro-response805178050 div.two-tiles-home-inner > div
 {
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-.micro-response-1074497519 div.two-tiles-home-inner > div:nth-child(1)
+.micro-response805178050 div.two-tiles-home-inner > div:nth-child(1)
 {
 	width: 25%;
 	margin-left: 0%;
 }
 
-.micro-response-1074497519 div.two-tiles-home-inner > div:nth-child(2)
+.micro-response805178050 div.two-tiles-home-inner > div:nth-child(2)
 {
 	width: 72%;
 	margin-left: 3%;
 }
 
-.micro-response-1074497519 div.topic-hero
+.micro-response805178050 div.topic-hero
 {
 	padding: 3% 3% 6% 2%;
 	background-image: url('../../Content/Resources/Images/Home-Hero-Image.jpg');
@@ -410,46 +410,46 @@
 	background-attachment: scroll;
 }
 
-.micro-response-1074497519 div.topic-hero h1
+.micro-response805178050 div.topic-hero h1
 {
 	color: #FFFFFF;
 	font-size: 48pt;
 }
 
-.micro-response-1074497519 html.home-topic	/*Used on home topic to override padding set in the skin*/
+.micro-response805178050 html.home-topic	/*Used on home topic to override padding set in the skin*/
 {
 	
 }
 
-.micro-response-1074497519 html.home-topic div.body-container	/*Overrides padding set in the skin*/
+.micro-response805178050 html.home-topic div.body-container	/*Overrides padding set in the skin*/
 {
 	padding: 0;
 }
 
-.micro-response-1074497519 html.home-topic div.main-section > div.outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+.micro-response805178050 html.home-topic div.main-section > div.outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
 {
 	max-width: 100%;
 	padding: 0;
 }
 
-.micro-response-1074497519 html.home-topic nav.sidenav-wrapper	/* Hides side navigation on the home topic */
+.micro-response805178050 html.home-topic nav.sidenav-wrapper	/* Hides side navigation on the home topic */
 {
 	display: none;
 }
 
-.micro-response-1074497519 div.home-search-wrapper
+.micro-response805178050 div.home-search-wrapper
 {
 	width: 50%;
 }
 
 /* Heading Bookmark Styles*/
 
-.micro-response-1074497519 .bookmark-hotspot
+.micro-response805178050 .bookmark-hotspot
 {
 	position: relative;
 }
 
-.micro-response-1074497519 .bookmark-hotspot:hover a.heading-link
+.micro-response805178050 .bookmark-hotspot:hover a.heading-link
 {
 	opacity: 1;
 	background-image: url('../../Content/Resources/Images/Assets/Icons/Heading-Bookmarks/hovercopy.svg');
@@ -461,7 +461,7 @@
 	display: inline-block;
 }
 
-.micro-response-1074497519 a.heading-link
+.micro-response805178050 a.heading-link
 {
 	opacity: 0;
 	text-decoration: none;
@@ -470,12 +470,12 @@
 	display: none;
 }
 
-.micro-response-1074497519 div#anchor-icon
+.micro-response805178050 div#anchor-icon
 {
 	display: inline;
 }
 
-.micro-response-1074497519 .bookmark-hotspot.active:after
+.micro-response805178050 .bookmark-hotspot.active:after
 {
 	font-size: 10px;
 	margin-left: 10px;
@@ -489,21 +489,21 @@
 	left: -20px;
 }
 
-.micro-response-1074497519 h1#results-heading	/* prevent heading in search results from being a bookmark */
+.micro-response805178050 h1#results-heading	/* prevent heading in search results from being a bookmark */
 {
 	cursor: auto;
 }
 
-.micro-response-1074497519 h1#results-heading a.heading-link,
-.micro-response-1074497519 html.home-topic div.topic-hero h1 a.heading-link	/* prevent heading in search results and home page from being a bookmark */
+.micro-response805178050 h1#results-heading a.heading-link,
+.micro-response805178050 html.home-topic div.topic-hero h1 a.heading-link	/* prevent heading in search results and home page from being a bookmark */
 {
 	display: none;
 }
 
 /********Custom expand and collapse buttons for Side Navigation********/
 
-.micro-response-1074497519 div.collapse,
-.micro-response-1074497519 div.expand
+.micro-response805178050 div.collapse,
+.micro-response805178050 div.expand
 {
 	position: sticky;
 	top: 0%;
@@ -520,34 +520,34 @@
 	background-size: 16px;
 }
 
-.micro-response-1074497519 div.collapse:hover,
-.micro-response-1074497519 div.expand:hover
+.micro-response805178050 div.collapse:hover,
+.micro-response805178050 div.expand:hover
 {
 	width: 33px;
 }
 
 /********Arrow icons for expand/collapse button********/
 
-.micro-response-1074497519 div.collapse
+.micro-response805178050 div.collapse
 {
 	background-image: url('../../Content/Resources/Images/Assets/Icons/Side-Navigation/collapse-arrow.png');
 }
 
-.micro-response-1074497519 div.expand
+.micro-response805178050 div.expand
 {
 	background-image: url('../../Content/Resources/Images/Assets/Icons/Side-Navigation/expand-arrow.png');
 }
 
 /*******Remove body container padding so expand/collapse button is attached to side nav*******/
 
-.micro-response-1074497519 div.body-container
+.micro-response805178050 div.body-container
 {
 	padding-left: 0;
 	padding-top: 0;
 	padding-right: 3em;
 }
 
-.micro-response-1074497519 div.topic-container
+.micro-response805178050 div.topic-container
 {
 	padding-left: 3em;
 	padding-top: 2em;
@@ -555,7 +555,7 @@
 	width: 100%;
 }
 
-.micro-response-1074497519 nav.sidenav-wrapper
+.micro-response805178050 nav.sidenav-wrapper
 {
 	overflow: hidden auto;
 	position: sticky;
@@ -564,7 +564,7 @@
 
 /*******Add resize icon to side nav*******/
 
-.micro-response-1074497519 div.ui-resizable-e
+.micro-response805178050 div.ui-resizable-e
 {
 	background-repeat: no-repeat;
 	background-position: center;
@@ -576,18 +576,18 @@
 
 /*******Fix resizable side navigation in place for long TOCs *******/
 
-.micro-response-1074497519 div.sidenav-container
+.micro-response805178050 div.sidenav-container
 {
 	height: 100%;
 }
 
-.micro-response-1074497519 div.sidenav-container,
-.micro-response-1074497519 nav.sidenav-wrapper
+.micro-response805178050 div.sidenav-container,
+.micro-response805178050 nav.sidenav-wrapper
 {
 	overflow: unset;
 }
 
-.micro-response-1074497519 div.sidenav-container > ul
+.micro-response805178050 div.sidenav-container > ul
 {
 	overflow: auto;
 	height: 100%;
@@ -595,17 +595,17 @@
 
 /*******Hide bottom-right resize icon*******/
 
-.micro-response-1074497519 div.ui-resizable-se
+.micro-response805178050 div.ui-resizable-se
 {
 	display: none !important;
 }
 
-.micro-response-1074497519 div.ui-resizable-s
+.micro-response805178050 div.ui-resizable-s
 {
 	display: none !important;
 }
 
-.micro-response-1074497519 MadCap|breadcrumbsProxy
+.micro-response805178050 MadCap|breadcrumbsProxy
 {
 	border-bottom-width: 0;
 	color: #45494C;
@@ -615,12 +615,12 @@
 
 /* Links */
 
-.micro-response-1074497519 a
+.micro-response805178050 a
 {
 	color: #002F5F;
 }
 
-.micro-response-1074497519 MadCap|dropDown
+.micro-response805178050 MadCap|dropDown
 {
 	border-bottom: 1px solid #DADEE1;
 	mc-image-position: left;
@@ -630,12 +630,12 @@
 	padding: 10px 0;
 }
 
-.micro-response-1074497519 MadCap|dropDownBody
+.micro-response805178050 MadCap|dropDownBody
 {
 	padding: 10px 30px 0;
 }
 
-.micro-response-1074497519 MadCap|dropDownHotspot
+.micro-response805178050 MadCap|dropDownHotspot
 {
 	cursor: hand;
 	text-decoration: none;
@@ -645,13 +645,13 @@
 	border-bottom: none;
 }
 
-.micro-response-1074497519 MadCap|expandingBody
+.micro-response805178050 MadCap|expandingBody
 {
 	color: #45494C;
 	font-style: italic;
 }
 
-.micro-response-1074497519 MadCap|expandingHead
+.micro-response805178050 MadCap|expandingHead
 {
 	font-style: italic;
 	font-weight: normal;
@@ -660,7 +660,7 @@
 	color: #002F5F;
 }
 
-.micro-response-1074497519 MadCap|xref
+.micro-response805178050 MadCap|xref
 {
 	font-weight: bold;
 	mc-format: '{para}';
@@ -670,20 +670,20 @@
 
 /* Lists */
 
-.micro-response-1074497519 dd,
-.micro-response-1074497519 dd p,
-.micro-response-1074497519 dt,
-.micro-response-1074497519 dt p,
-.micro-response-1074497519 li,
-.micro-response-1074497519 li p
+.micro-response805178050 dd,
+.micro-response805178050 dd p,
+.micro-response805178050 dt,
+.micro-response805178050 dt p,
+.micro-response805178050 li,
+.micro-response805178050 li p
 {
 	margin-bottom: 8px;
 	margin-top: 8px;
 }
 
-.micro-response-1074497519 dl,
-.micro-response-1074497519 ol,
-.micro-response-1074497519 ul
+.micro-response805178050 dl,
+.micro-response805178050 ol,
+.micro-response805178050 ul
 {
 	letter-spacing: .25px;
 	line-height: 20pt;
@@ -693,13 +693,13 @@
 
 /* Master page */
 
-.micro-response-1074497519 div.home-footer
+.micro-response805178050 div.home-footer
 {
 	background-color: #002F5F;
 	padding: 2% 5%;
 }
 
-.micro-response-1074497519 td.home-footer-logo
+.micro-response805178050 td.home-footer-logo
 {
 	background-image: url('../../Content/Resources/Images/PlaceholderLogo-gray.png');
 	background-repeat: no-repeat;
@@ -707,7 +707,7 @@
 	width: 400px;
 }
 
-.micro-response-1074497519 p.footer
+.micro-response805178050 p.footer
 {
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -715,14 +715,14 @@
 	color: #FFFFFF;
 }
 
-.micro-response-1074497519 p.footer-sub
+.micro-response805178050 p.footer-sub
 {
 	color: #FFFFFF;
 	font-size: 14pt;
 	margin-top: 14px;
 }
 
-.micro-response-1074497519 MadCap|dropDown.faq
+.micro-response805178050 MadCap|dropDown.faq
 {
 	background-color: #F5F7FA;
 	padding: 10px 10px 10px 0;
@@ -730,12 +730,12 @@
 	border-bottom: none;
 }
 
-.micro-response-1074497519 html.searchTopic div.buttons
+.micro-response805178050 html.searchTopic div.buttons
 {
 	display: block;
 }
 
-.micro-response-1074497519 div.search-bar-icon
+.micro-response805178050 div.search-bar-icon
 {
 	display: inline-block;
 	float: left;
@@ -744,12 +744,12 @@
 	cursor: pointer;
 }
 
-.micro-response-1074497519 nav.title-bar
+.micro-response805178050 nav.title-bar
 {
 	box-shadow: 0px 0px 6px #333;
 }
 
-.micro-response-1074497519 div.dropDownfaq a.MCHotSpotImage
+.micro-response805178050 div.dropDownfaq a.MCHotSpotImage
 {
 	display: block;
 	background-position: right !important;
@@ -757,7 +757,7 @@
 
 /********** Back to top button **********/
 
-.micro-response-1074497519 button#myBtn
+.micro-response805178050 button#myBtn
 {
 	display: none;
 	position: fixed;
@@ -778,13 +778,13 @@
 	background-image: url('../../Content/Resources/Images/up-arrow-white.png');
 }
 
-.micro-response-1074497519 button#myBtn:hover
+.micro-response805178050 button#myBtn:hover
 {
 	background-color: #FFFFFF;
 	background-image: url('../../Content/Resources/Images/up-arrow-primary.png');
 }
 
-.micro-response-1074497519 div.toolbar-container
+.micro-response805178050 div.toolbar-container
 {
 	width: 100%;
 	height: 40px;
@@ -795,105 +795,105 @@
 	display: none;
 }
 
-.micro-response-1074497519 div.buttons._Skins_Toolbar_Right.mc-component
+.micro-response805178050 div.buttons._Skins_Toolbar_Right.mc-component
 {
 	display: flex;
 }
 
 /* position next and previous toolbar button */
 
-.micro-response-1074497519 div.buttons._Skins_Toolbar_Left.mc-component
+.micro-response805178050 div.buttons._Skins_Toolbar_Left.mc-component
 {
 	position: absolute;
 	left: 70px;
 	top: 10px;
 }
 
-.micro-response-1074497519 button.next-topic-button div.button-icon,
-.micro-response-1074497519 button.previous-topic-button div.button-icon
+.micro-response805178050 button.next-topic-button div.button-icon,
+.micro-response805178050 button.previous-topic-button div.button-icon
 {
 	background-size: 20px !important;
 }
 
 /* position home  icon in toolbar */
 
-.micro-response-1074497519 img.toolbar-home-icon
+.micro-response805178050 img.toolbar-home-icon
 {
 	margin-left: 25px;
 }
 
-.micro-response-1074497519 div.sidenav-container ul.menu li
+.micro-response805178050 div.sidenav-container ul.menu li
 {
 	position: relative;
 }
 
-.micro-response-1074497519 li.has-children.collapsed ul.sub-menu
+.micro-response805178050 li.has-children.collapsed ul.sub-menu
 {
 	display: none;
 }
 
-.micro-response-1074497519 li.has-children.expanded ul.sub-menu
+.micro-response805178050 li.has-children.expanded ul.sub-menu
 {
 	display: block;
 }
 
-.micro-response-1074497519 div.header-links-menu > ul > li > a:hover,
-.micro-response-1074497519 div.header-links-menu > ul > li > a.selected
+.micro-response805178050 div.header-links-menu > ul > li > a:hover,
+.micro-response805178050 div.header-links-menu > ul > li > a.selected
 {
 	background-color: transparent !important;
 	color: #002F5F !important;
 }
 
-.micro-response-1074497519 div.sidenav-container > ul.sidenav a.selected span.submenu-toggle
+.micro-response805178050 div.sidenav-container > ul.sidenav a.selected span.submenu-toggle
 {
 	border-top-color: #FFFFFF;
 }
 
-.micro-response-1074497519 div.header-links-menu ul.menu._Skins_Header_Menu.mc-component ul > li > a
+.micro-response805178050 div.header-links-menu ul.menu._Skins_Header_Menu.mc-component ul > li > a
 {
 	background-color: #FFFFFF;
 }
 
-.micro-response-1074497519 a:link
+.micro-response805178050 a:link
 {
 	color: #002F5F;
 }
 
-.micro-response-1074497519 a:visited
+.micro-response805178050 a:visited
 {
 	color: #002F5F;
 }
 
-.micro-response-1074497519 div.header-links-menu ul.menu._Skins_Header_Menu.mc-component ul > li > a:hover
+.micro-response805178050 div.header-links-menu ul.menu._Skins_Header_Menu.mc-component ul > li > a:hover
 {
 	color: #fff;
 	background-color: #002F5F;
 }
 
-.micro-response-1074497519 ul.hovered a:hover
+.micro-response805178050 ul.hovered a:hover
 {
 	background-color: #002F5F;
 }
 
-.micro-response-1074497519 ul.menu._Skins_Header_Menu.mc-component li > a.selected
+.micro-response805178050 ul.menu._Skins_Header_Menu.mc-component li > a.selected
 {
 	background-color: #002F5F;
 }
 
-.micro-response-1074497519 ul.menu._Skins_Header_Menu.mc-component li > ul a.selected
+.micro-response805178050 ul.menu._Skins_Header_Menu.mc-component li > ul a.selected
 {
 	background-color: #002F5F !important;
 }
 
-.micro-response-1074497519 ul.sidenav li a:hover span.submenu-toggle,
-.micro-response-1074497519 ul.off-canvas-list a:hover span.submenu-toggle
+.micro-response805178050 ul.sidenav li a:hover span.submenu-toggle,
+.micro-response805178050 ul.off-canvas-list a:hover span.submenu-toggle
 {
 	border-top-color: #FFFFFF !important;
 }
 
 /* Dropdown indicator for menu items with children */
 
-.micro-response-1074497519 li.menu-drop-down
+.micro-response805178050 li.menu-drop-down
 {
 	position: relative;
 	padding-right: 20px;
@@ -901,7 +901,7 @@
 
 /* Set icon for Top Navigation menu items with children */
 
-.micro-response-1074497519 div.header-links-menu > ul.menu > li.has-children > a:after
+.micro-response805178050 div.header-links-menu > ul.menu > li.has-children > a:after
 {
 	content: "";
 	height: 15px;
@@ -913,7 +913,7 @@
 
 /* add icon for Top Navigation links that are set to open in a new tab */
 
-.micro-response-1074497519 div.header-links-menu > ul.menu ul.sub-menu > li > a[target="_blank"]:after
+.micro-response805178050 div.header-links-menu > ul.menu ul.sub-menu > li > a[target="_blank"]:after
 {
 	content: "";
 	display: inline-block;
@@ -927,55 +927,55 @@
 	vertical-align: 0px;
 }
 
-.micro-response-1074497519 div.home-tiles > div[onclick]:hover
+.micro-response805178050 div.home-tiles > div[onclick]:hover
 {
 	box-shadow: 2px 3px 9px #ccc;
 }
 
-.micro-response-1074497519 div.home-tiles > div[onclick]
+.micro-response805178050 div.home-tiles > div[onclick]
 {
 	cursor: pointer;
 }
 
-.micro-response-1074497519 div.home-tiles
+.micro-response805178050 div.home-tiles
 {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.micro-response-1074497519 div.two-tiles-home
+.micro-response805178050 div.two-tiles-home
 {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.micro-response-1074497519 div.quick-links
+.micro-response805178050 div.quick-links
 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 60%;
 }
 
-.micro-response-1074497519 div#mc-main-content,
-.micro-response-1074497519 div.search-wrapper
+.micro-response805178050 div#mc-main-content,
+.micro-response805178050 div.search-wrapper
 {
 	clear: both;
 }
 
-.micro-response-1074497519 div.search-wrapper
+.micro-response805178050 div.search-wrapper
 {
 	display: none;
 	margin-top: -4px;
 	padding-right: 20px;
 }
 
-.micro-response-1074497519 div.search-bar._Skins_Topic_search.mc-component
+.micro-response805178050 div.search-bar._Skins_Topic_search.mc-component
 {
 	display: inline-block;
 	float: right;
 }
 
-.micro-response-1074497519 button.copy-link-button.active:after
+.micro-response805178050 button.copy-link-button.active:after
 {
 	font-size: 10px;
 	margin-left: 10px;
@@ -989,28 +989,28 @@
 	left: -20px;
 }
 
-.micro-response-1074497519 div._Skins_Toolbar_Right button.print-button
+.micro-response805178050 div._Skins_Toolbar_Right button.print-button
 {
 	width: 75px !important;
 }
 
-.micro-response-1074497519 div._Skins_Toolbar_Right button.copy-link-button
+.micro-response805178050 div._Skins_Toolbar_Right button.copy-link-button
 {
 	width: 115px !important;
 }
 
-.micro-response-1074497519 button.button.needs-pie.print-button::after
+.micro-response805178050 button.button.needs-pie.print-button::after
 {
 	content: 'Print';
 	left: 28px;
 }
 
-.micro-response-1074497519 button.button.needs-pie.copy-link-button::after
+.micro-response805178050 button.button.needs-pie.copy-link-button::after
 {
 	content: 'Copy URL';
 }
 
-.micro-response-1074497519 div._Skins_Toolbar_Right button::after
+.micro-response805178050 div._Skins_Toolbar_Right button::after
 {
 	color: #FFFFFF;
 	position: absolute;
@@ -1018,7 +1018,7 @@
 	top: 2px;
 }
 
-.micro-response-1074497519 button.copy-link-button div.button-icon
+.micro-response805178050 button.copy-link-button div.button-icon
 {
 	background-image: url('../../Content/Resources/Images/Assets/Icons/Toolbar-Buttons/copy-url-icon.png');
 	background-repeat: no-repeat;
@@ -1026,18 +1026,18 @@
 	background-position: left center !important;
 }
 
-.micro-response-1074497519 div._Skins_Toolbar_Right.buttons button.button > div
+.micro-response805178050 div._Skins_Toolbar_Right.buttons button.button > div
 {
 	display: block;
 	margin: unset;
 }
 
-.micro-response-1074497519 div._Skins_Toolbar_Right button
+.micro-response805178050 div._Skins_Toolbar_Right button
 {
 	position: relative;
 }
 
-.micro-response-1074497519 div.header-links ul a
+.micro-response805178050 div.header-links ul a
 {
 	text-decoration: none;
 	color: #fff;
@@ -1045,52 +1045,52 @@
 	padding: 10px;
 }
 
-.micro-response-1074497519 div.header-links-menu ul ul li.menu-drop-down
+.micro-response805178050 div.header-links-menu ul ul li.menu-drop-down
 {
 	position: relative;
 	background: url('../../Content/Resources/Images/Assets/Icons/Top-Navigation/arrow-down-gray.png') no-repeat 96% center;
 }
 
-.micro-response-1074497519 div.header-links-menu ul ul li.has-children ul.sub-menu
+.micro-response805178050 div.header-links-menu ul ul li.has-children ul.sub-menu
 {
 	left: -100%;
 	position: absolute;
 	top: 10px;
 }
 
-.micro-response-1074497519 div.header-links-menu ul ul li.has-children
+.micro-response805178050 div.header-links-menu ul ul li.has-children
 {
 	background-color: #FFFFFF;
 	margin-left: 0;
 }
 
-.micro-response-1074497519 div.header-links-menu li
+.micro-response805178050 div.header-links-menu li
 {
 	flex: 1 0 auto;
 }
 
-.micro-response-1074497519 div.header-links-menu li.has-children
+.micro-response805178050 div.header-links-menu li.has-children
 {
 	margin-left: 25px;
 	padding-right: 25px;
 }
 
-.micro-response-1074497519 div.header-links > ul > li > ul > li.menu-drop-down > ul:hover,
-.micro-response-1074497519 div.header-links-menu > ul > li > ul > li.menu-drop-down > ul:hover
+.micro-response805178050 div.header-links > ul > li > ul > li.menu-drop-down > ul:hover,
+.micro-response805178050 div.header-links-menu > ul > li > ul > li.menu-drop-down > ul:hover
 {
 	display: inline-block;
 	left: -100%;
 }
 
-.micro-response-1074497519 div.header-links > ul > li > ul > li.menu-drop-down > ul,
-.micro-response-1074497519 div.header-links > ul > li > ul > li.menu-drop-down > ul > li > ul
+.micro-response805178050 div.header-links > ul > li > ul > li.menu-drop-down > ul,
+.micro-response805178050 div.header-links > ul > li > ul > li.menu-drop-down > ul > li > ul
 {
 	left: -100%;
 	top: 0;
 	display: none;
 }
 
-.micro-response-1074497519 li.menu-drop-down.open > ul
+.micro-response805178050 li.menu-drop-down.open > ul
 {
 	display: inline-block;
 	position: absolute;
@@ -1099,24 +1099,24 @@
 	box-shadow: 2px 2px 9px #45494C;
 }
 
-.micro-response-1074497519 ul.hovered a
+.micro-response805178050 ul.hovered a
 {
 	display: block;
 }
 
-.micro-response-1074497519 ul.hovered li,
-.micro-response-1074497519 ul.hovered p
+.micro-response805178050 ul.hovered li,
+.micro-response805178050 ul.hovered p
 {
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-.micro-response-1074497519 ul.hovered
+.micro-response805178050 ul.hovered
 {
 	display: block !important;
 }
 
-.micro-response-1074497519 li.menu-drop-down:hover > ul
+.micro-response805178050 li.menu-drop-down:hover > ul
 {
 	display: inline-block;
 	position: absolute;
@@ -1125,8 +1125,8 @@
 	box-shadow: 2px 2px 9px #45494C;
 }
 
-.micro-response-1074497519 div.header-links > ul > li > ul,
-.micro-response-1074497519 div.header-links-menu > ul > li > ul
+.micro-response805178050 div.header-links > ul > li > ul,
+.micro-response805178050 div.header-links-menu > ul > li > ul
 {
 	display: none;
 	position: absolute;
@@ -1135,7 +1135,7 @@
 	list-style: none;
 }
 
-.micro-response-1074497519 div.header-links-menu ul.menu
+.micro-response805178050 div.header-links-menu ul.menu
 {
 	width: 90% !important;
 	z-index: 9999;
@@ -1143,14 +1143,14 @@
 	overflow-y: unset;
 }
 
-.micro-response-1074497519 div.header-links ul,
-.micro-response-1074497519 div.header-links-menu ul
+.micro-response805178050 div.header-links ul,
+.micro-response805178050 div.header-links-menu ul
 {
 	list-style: none;
 }
 
-.micro-response-1074497519 div.header-links > ul,
-.micro-response-1074497519 div.header-links-menu > ul
+.micro-response805178050 div.header-links > ul,
+.micro-response805178050 div.header-links-menu > ul
 {
 	display: flex;
 	align-items: center;
@@ -1158,13 +1158,13 @@
 	list-style: none;
 }
 
-.micro-response-1074497519 div.header-links-menu
+.micro-response805178050 div.header-links-menu
 {
 	min-width: 500px;
 }
 
-.micro-response-1074497519 div.header-links,
-.micro-response-1074497519 div.header-links-menu
+.micro-response805178050 div.header-links,
+.micro-response805178050 div.header-links-menu
 {
 	display: flex;
 	order: 3;
@@ -1175,86 +1175,86 @@
 {
 	/* Home page topic */
 
-	.micro-response-1074497519 div.home-search-wrapper
+	.micro-response805178050 div.home-search-wrapper
 	{
 		width: 100%;
 	}
 
-	.micro-response-1074497519 div.home-tiles > div
+	.micro-response805178050 div.home-tiles > div
 	{
 		width: 26%;
 	}
 
-	.micro-response-1074497519 div.home-tiles > div:nth-child(1)
+	.micro-response805178050 div.home-tiles > div:nth-child(1)
 	{
 		margin-left: 9%;
 	}
 
-	.micro-response-1074497519 div.home-tiles > div:nth-child(2)
+	.micro-response805178050 div.home-tiles > div:nth-child(2)
 	{
 		margin-left: 2%;
 	}
 
-	.micro-response-1074497519 div.home-tiles > div:nth-child(3)
+	.micro-response805178050 div.home-tiles > div:nth-child(3)
 	{
 		margin-left: 2%;
 	}
 
-	.micro-response-1074497519 div.home-tiles-layout > div:nth-child(1)
+	.micro-response805178050 div.home-tiles-layout > div:nth-child(1)
 	{
 		width: 40%;
 		margin-left: 30%;
 	}
 
-	.micro-response-1074497519 div.home-tiles-layout > div:nth-child(2)
+	.micro-response805178050 div.home-tiles-layout > div:nth-child(2)
 	{
 		width: 90%;
 		margin-left: 5%;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(1)
+	.micro-response805178050 div.quick-links > div:nth-child(1)
 	{
 		width: 24%;
 		margin-left: 0%;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(2)
+	.micro-response805178050 div.quick-links > div:nth-child(2)
 	{
 		width: 24%;
 		margin-left: 14%;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(3)
+	.micro-response805178050 div.quick-links > div:nth-child(3)
 	{
 		width: 24%;
 		margin-left: 14%;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(4)
+	.micro-response805178050 div.quick-links > div:nth-child(4)
 	{
 		width: 24%;
 		margin-left: 19%;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(5)
+	.micro-response805178050 div.quick-links > div:nth-child(5)
 	{
 		width: 24%;
 		margin-left: 14%;
 	}
 
-	.micro-response-1074497519 html.home-topic div.body-container
+	.micro-response805178050 html.home-topic div.body-container
 	{
 		margin-left: 0;
 	}
 
-	.micro-response-1074497519 div.off-canvas-wrapper-inner div.main-section div.outer-row
+	.micro-response805178050 div.off-canvas-wrapper-inner div.main-section div.outer-row
 	{
 		overflow-y: auto;
 		display: flex;
 		padding-right: 0;
 	}
 
-	.micro-response-1074497519 div.toolbar-container
+	.micro-response805178050 div.toolbar-container
 	{
 		position: sticky;
 		top: 85px;
@@ -1262,86 +1262,86 @@
 		height: 40px;
 	}
 
-	.micro-response-1074497519 div.faq-section
+	.micro-response805178050 div.faq-section
 	{
 		width: 80%;
 	}
 
-	.micro-response-1074497519 div.quick-links
+	.micro-response805178050 div.quick-links
 	{
 		width: 80%;
 	}
 
-	.micro-response-1074497519 div.header-links,
-	.micro-response-1074497519 div.header-links-menu
+	.micro-response805178050 div.header-links,
+	.micro-response805178050 div.header-links-menu
 	{
 		order: 1;
 	}
 
-	.micro-response-1074497519 div.title-bar-layout div.logo-wrapper
+	.micro-response805178050 div.title-bar-layout div.logo-wrapper
 	{
 		flex-basis: auto;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home > div:nth-child(1)
+	.micro-response805178050 div.two-tiles-home > div:nth-child(1)
 	{
 		width: 43%;
 		margin-left: 5.5%;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home > div:nth-child(2)
+	.micro-response805178050 div.two-tiles-home > div:nth-child(2)
 	{
 		width: 43%;
 		margin-left: 3%;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home-inner > div:nth-child(1)
+	.micro-response805178050 div.two-tiles-home-inner > div:nth-child(1)
 	{
 		width: 32%;
 		margin-left: 0%;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home-inner > div:nth-child(2)
+	.micro-response805178050 div.two-tiles-home-inner > div:nth-child(2)
 	{
 		width: 65%;
 		margin-left: 3%;
 	}
 
-	.micro-response-1074497519 div.topic-container
+	.micro-response805178050 div.topic-container
 	{
 		padding-left: 1em;
 		padding-right: 1em;
 	}
 
-	.micro-response-1074497519 div.body-container
+	.micro-response805178050 div.body-container
 	{
 		padding-right: 0;
 	}
 
 	/*******Hide expand/collapse icon in tablet and mobile*******/
 
-	.micro-response-1074497519 div.collapse
+	.micro-response805178050 div.collapse
 	{
 		display: none;
 	}
 
 	/* Disable hover styles for mobile */
 
-	.micro-response-1074497519 li.menu-drop-down:hover > ul.sub-menu
+	.micro-response805178050 li.menu-drop-down:hover > ul.sub-menu
 	{
 		display: none !important;
 	}
 
 	/* Show menu when JS adds .open */
 
-	.micro-response-1074497519 li.menu-drop-down.open > ul.sub-menu
+	.micro-response805178050 li.menu-drop-down.open > ul.sub-menu
 	{
 		display: block !important;
 	}
 
 	/* Optional: make submenus take full width for touch ease */
 
-	.micro-response-1074497519 ul.sub-menu
+	.micro-response805178050 ul.sub-menu
 	{
 		position: static;
 		width: 100%;
@@ -1352,84 +1352,84 @@
 {
 	/* Home page topic */
 
-	.micro-response-1074497519 div.home-tiles > div:nth-child(1)
+	.micro-response805178050 div.home-tiles > div:nth-child(1)
 	{
 		width: 94%;
 		margin-left: 3%;
 	}
 
-	.micro-response-1074497519 div.home-tiles > div:nth-child(2)
-	{
-		width: 94%;
-		margin-left: 3%;
-		margin-top: 5%;
-	}
-
-	.micro-response-1074497519 div.home-tiles > div:nth-child(3)
+	.micro-response805178050 div.home-tiles > div:nth-child(2)
 	{
 		width: 94%;
 		margin-left: 3%;
 		margin-top: 5%;
 	}
 
-	.micro-response-1074497519 div.home-tiles-layout p
+	.micro-response805178050 div.home-tiles > div:nth-child(3)
+	{
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 5%;
+	}
+
+	.micro-response805178050 div.home-tiles-layout p
 	{
 		line-height: 1.2;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(1)
+	.micro-response805178050 div.quick-links > div:nth-child(1)
 	{
 		width: 49%;
 		margin-left: 0;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(2)
+	.micro-response805178050 div.quick-links > div:nth-child(2)
 	{
 		width: 49%;
 		margin-left: 2%;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(3)
+	.micro-response805178050 div.quick-links > div:nth-child(3)
 	{
 		width: 49%;
 		margin-left: 0;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(4)
+	.micro-response805178050 div.quick-links > div:nth-child(4)
 	{
 		width: 49%;
 		margin-left: 2%;
 	}
 
-	.micro-response-1074497519 div.quick-links > div:nth-child(5)
+	.micro-response805178050 div.quick-links > div:nth-child(5)
 	{
 		width: 49%;
 		margin-left: 25.5%;
 	}
 
-	.micro-response-1074497519 td.home-footer-logo
+	.micro-response805178050 td.home-footer-logo
 	{
 		padding: 20px;
 		background-origin: content-box;
 		background-size: contain;
 	}
 
-	.micro-response-1074497519 div.MCBreadcrumbsBox_0
+	.micro-response805178050 div.MCBreadcrumbsBox_0
 	{
 		display: none;
 	}
 
-	.micro-response-1074497519 div.search-wrapper
+	.micro-response805178050 div.search-wrapper
 	{
 		width: 100%;
 	}
 
-	.micro-response-1074497519 div.toolbar-container.mobile-active
+	.micro-response805178050 div.toolbar-container.mobile-active
 	{
 		height: 80px;
 	}
 
-	.micro-response-1074497519 div.toolbar-container.mobile-active div.search-wrapper
+	.micro-response805178050 div.toolbar-container.mobile-active div.search-wrapper
 	{
 		top: 40px;
 		right: 3%;
@@ -1439,87 +1439,87 @@
 		margin-top: 0;
 	}
 
-	.micro-response-1074497519 div.faq-section
+	.micro-response805178050 div.faq-section
 	{
 		width: 100%;
 	}
 
-	.micro-response-1074497519 div.quick-links
+	.micro-response805178050 div.quick-links
 	{
 		width: 100%;
 	}
 
-	.micro-response-1074497519 div.topic-hero h1
+	.micro-response805178050 div.topic-hero h1
 	{
 		text-align: center;
 	}
 
-	.micro-response-1074497519 div.header-links,
-	.micro-response-1074497519 div.header-links-menu
+	.micro-response805178050 div.header-links,
+	.micro-response805178050 div.header-links-menu
 	{
 		flex-basis: 100%;
 		justify-content: center;
 	}
 
-	.micro-response-1074497519 div.header-links-menu
+	.micro-response805178050 div.header-links-menu
 	{
 		min-width: auto;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home
+	.micro-response805178050 div.two-tiles-home
 	{
 		margin-top: 25px;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home > div:nth-child(1)
+	.micro-response805178050 div.two-tiles-home > div:nth-child(1)
 	{
 		width: 100%;
 		margin-left: 0%;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home > div:nth-child(2)
+	.micro-response805178050 div.two-tiles-home > div:nth-child(2)
 	{
 		width: 100%;
 		margin-left: 0%;
 		margin-top: 3%;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home-inner > div:nth-child(1)
+	.micro-response805178050 div.two-tiles-home-inner > div:nth-child(1)
 	{
 		width: 25%;
 		margin-left: 0%;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home-inner > div:nth-child(2)
+	.micro-response805178050 div.two-tiles-home-inner > div:nth-child(2)
 	{
 		width: 75%;
 		margin-left: 0%;
 	}
 
-	.micro-response-1074497519 div.header-links-menu > ul > li:nth-child(1) > ul.sub-menu
+	.micro-response805178050 div.header-links-menu > ul > li:nth-child(1) > ul.sub-menu
 	{
 		right: unset;
 		left: 0;
 	}
 
-	.micro-response-1074497519 div.header-links-menu > ul > li:last-child > ul.sub-menu
+	.micro-response805178050 div.header-links-menu > ul > li:last-child > ul.sub-menu
 	{
 		right: 0;
 	}
 
-	.micro-response-1074497519 div.header-links-menu ul.menu
+	.micro-response805178050 div.header-links-menu ul.menu
 	{
 		flex-wrap: wrap;
 		justify-content: center;
 		width: 100% !important;
 	}
 
-	.micro-response-1074497519 div.header-links-menu > ul > li
+	.micro-response805178050 div.header-links-menu > ul > li
 	{
 		flex: 0 1 auto;
 	}
 
-	.micro-response-1074497519 div.header-links-menu li.has-children
+	.micro-response805178050 div.header-links-menu li.has-children
 	{
 		margin-left: 0;
 	}
@@ -1529,18 +1529,18 @@
 {
 	/* Links */
 
-	.micro-response-1074497519 MadCap|xref
+	.micro-response805178050 MadCap|xref
 	{
 		font-weight: normal;
 		mc-format: '{quote}{para}{quote} {pageref}';
 		text-decoration: none;
 	}
 
-	.micro-response-1074497519 div.toolbar-container,
-	.micro-response-1074497519 div.search-wrapper,
-	.micro-response-1074497519 div.feedback-wrapper,
-	.micro-response-1074497519 div#expand-collapse,
-	.micro-response-1074497519 div.breadcrumbs
+	.micro-response805178050 div.toolbar-container,
+	.micro-response805178050 div.search-wrapper,
+	.micro-response805178050 div.feedback-wrapper,
+	.micro-response805178050 div#expand-collapse,
+	.micro-response805178050 div.breadcrumbs
 	{
 		display: none !important;
 	}
@@ -1559,8 +1559,8 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Container layout for header menu */
 
-	.micro-response-1074497519 div.header-links,
-	.micro-response-1074497519 div.header-links-menu
+	.micro-response805178050 div.header-links,
+	.micro-response805178050 div.header-links-menu
 	{
 		display: flex;
 		order: 3;
@@ -1569,15 +1569,15 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Minimum width for menu section */
 
-	.micro-response-1074497519 div.header-links-menu
+	.micro-response805178050 div.header-links-menu
 	{
 		min-width: 500px;
 	}
 
 	/* Top-level header menu list */
 
-	.micro-response-1074497519 div.header-links > ul,
-	.micro-response-1074497519 div.header-links-menu > ul
+	.micro-response805178050 div.header-links > ul,
+	.micro-response805178050 div.header-links-menu > ul
 	{
 		display: flex;
 		align-items: center;
@@ -1587,15 +1587,15 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* General reset for all ULs inside header */
 
-	.micro-response-1074497519 div.header-links ul,
-	.micro-response-1074497519 div.header-links-menu ul
+	.micro-response805178050 div.header-links ul,
+	.micro-response805178050 div.header-links-menu ul
 	{
 		list-style: none;
 	}
 
 	/* Main menu bar styling */
 
-	.micro-response-1074497519 div.header-links-menu ul.menu
+	.micro-response805178050 div.header-links-menu ul.menu
 	{
 		width: 90% !important;
 		z-index: 9999;
@@ -1605,8 +1605,8 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Hide nested submenus by default */
 
-	.micro-response-1074497519 div.header-links > ul > li > ul,
-	.micro-response-1074497519 div.header-links-menu > ul > li > ul
+	.micro-response805178050 div.header-links > ul > li > ul,
+	.micro-response805178050 div.header-links-menu > ul > li > ul
 	{
 		display: none;
 		position: absolute;
@@ -1617,7 +1617,7 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Show submenus on hover */
 
-	.micro-response-1074497519 li.menu-drop-down:hover > ul
+	.micro-response805178050 li.menu-drop-down:hover > ul
 	{
 		display: inline-block;
 		position: absolute;
@@ -1628,31 +1628,31 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Selected submenu handling */
 
-	.micro-response-1074497519 ul.hovered
+	.micro-response805178050 ul.hovered
 	{
 		display: block !important;
 	}
 
-	.micro-response-1074497519 ul.hovered li,
-	.micro-response-1074497519 ul.hovered p
+	.micro-response805178050 ul.hovered li,
+	.micro-response805178050 ul.hovered p
 	{
 		margin-top: 0;
 		margin-bottom: 0;
 	}
 
-	.micro-response-1074497519 ul.hovered a
+	.micro-response805178050 ul.hovered a
 	{
 		display: block;
 	}
 
-	.micro-response-1074497519 ul.hovered a:hover
+	.micro-response805178050 ul.hovered a:hover
 	{
 		background-color: #002F5F;
 	}
 
 	/* Show submenu when the parent li has the 'open' class (for keyboard/JS control) */
 
-	.micro-response-1074497519 li.menu-drop-down.open > ul
+	.micro-response805178050 li.menu-drop-down.open > ul
 	{
 		display: inline-block;
 		position: absolute;
@@ -1663,16 +1663,16 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Nested submenu positioning (open left) */
 
-	.micro-response-1074497519 div.header-links > ul > li > ul > li.menu-drop-down > ul,
-	.micro-response-1074497519 div.header-links > ul > li > ul > li.menu-drop-down > ul > li > ul
+	.micro-response805178050 div.header-links > ul > li > ul > li.menu-drop-down > ul,
+	.micro-response805178050 div.header-links > ul > li > ul > li.menu-drop-down > ul > li > ul
 	{
 		left: -100%;
 		top: 0;
 		display: none;
 	}
 
-	.micro-response-1074497519 div.header-links > ul > li > ul > li.menu-drop-down > ul:hover,
-	.micro-response-1074497519 div.header-links-menu > ul > li > ul > li.menu-drop-down > ul:hover
+	.micro-response805178050 div.header-links > ul > li > ul > li.menu-drop-down > ul:hover,
+	.micro-response805178050 div.header-links-menu > ul > li > ul > li.menu-drop-down > ul:hover
 	{
 		display: inline-block;
 		left: -100%;
@@ -1680,31 +1680,31 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Nested header-links-menu submenu styling */
 
-	.micro-response-1074497519 div.header-links-menu li.has-children
+	.micro-response805178050 div.header-links-menu li.has-children
 	{
 		margin-left: 25px;
 		padding-right: 25px;
 	}
 
-	.micro-response-1074497519 div.header-links-menu li
+	.micro-response805178050 div.header-links-menu li
 	{
 		flex: 1 0 auto;
 	}
 
-	.micro-response-1074497519 div.header-links-menu ul ul li.has-children
+	.micro-response805178050 div.header-links-menu ul ul li.has-children
 	{
 		background-color: #FFFFFF;
 		margin-left: 0;
 	}
 
-	.micro-response-1074497519 div.header-links-menu ul ul li.has-children ul.sub-menu
+	.micro-response805178050 div.header-links-menu ul ul li.has-children ul.sub-menu
 	{
 		left: -100%;
 		position: absolute;
 		top: 10px;
 	}
 
-	.micro-response-1074497519 div.header-links-menu ul ul li.menu-drop-down
+	.micro-response805178050 div.header-links-menu ul ul li.menu-drop-down
 	{
 		position: relative;
 		background: url('../../Content/Resources/Images/Assets/Icons/Top-Navigation/arrow-down-gray.png') no-repeat 96% center;
@@ -1712,7 +1712,7 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Menu links */
 
-	.micro-response-1074497519 div.header-links ul a
+	.micro-response805178050 div.header-links ul a
 	{
 		text-decoration: none;
 		color: #fff;
@@ -1726,12 +1726,12 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Toolbar layout */
 
-	.micro-response-1074497519 div._Skins_Toolbar_Right button
+	.micro-response805178050 div._Skins_Toolbar_Right button
 	{
 		position: relative;
 	}
 
-	.micro-response-1074497519 div._Skins_Toolbar_Right.buttons button.button > div
+	.micro-response805178050 div._Skins_Toolbar_Right.buttons button.button > div
 	{
 		display: block;
 		margin: unset;
@@ -1739,7 +1739,7 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Copy URL button icon */
 
-	.micro-response-1074497519 button.copy-link-button div.button-icon
+	.micro-response805178050 button.copy-link-button div.button-icon
 	{
 		background-image: url('../../Content/Resources/Images/Assets/Icons/Toolbar-Buttons/copy-url-icon.png');
 		background-repeat: no-repeat;
@@ -1749,7 +1749,7 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Toolbar button text labels */
 
-	.micro-response-1074497519 div._Skins_Toolbar_Right button::after
+	.micro-response805178050 div._Skins_Toolbar_Right button::after
 	{
 		color: #FFFFFF;
 		position: absolute;
@@ -1757,12 +1757,12 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 		top: 2px;
 	}
 
-	.micro-response-1074497519 button.button.needs-pie.copy-link-button::after
+	.micro-response805178050 button.button.needs-pie.copy-link-button::after
 	{
 		content: 'Copy URL';
 	}
 
-	.micro-response-1074497519 button.button.needs-pie.print-button::after
+	.micro-response805178050 button.button.needs-pie.print-button::after
 	{
 		content: 'Print';
 		left: 28px;
@@ -1770,19 +1770,19 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Width adjustments */
 
-	.micro-response-1074497519 div._Skins_Toolbar_Right button.copy-link-button
+	.micro-response805178050 div._Skins_Toolbar_Right button.copy-link-button
 	{
 		width: 115px !important;
 	}
 
-	.micro-response-1074497519 div._Skins_Toolbar_Right button.print-button
+	.micro-response805178050 div._Skins_Toolbar_Right button.print-button
 	{
 		width: 75px !important;
 	}
 
 	/* "Copied!" tooltip styling when copy link url is clicked */
 
-	.micro-response-1074497519 button.copy-link-button.active:after
+	.micro-response805178050 button.copy-link-button.active:after
 	{
 		font-size: 10px;
 		margin-left: 10px;
@@ -1798,13 +1798,13 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Search bar alignment */
 
-	.micro-response-1074497519 div.search-bar._Skins_Topic_search.mc-component
+	.micro-response805178050 div.search-bar._Skins_Topic_search.mc-component
 	{
 		display: inline-block;
 		float: right;
 	}
 
-	.micro-response-1074497519 div.search-wrapper
+	.micro-response805178050 div.search-wrapper
 	{
 		display: none;
 		/*position: absolute;
@@ -1816,39 +1816,39 @@ The medium is assigned to the target under the Advanced tab in the Stylesheet Me
 
 	/* Clear floats */
 
-	.micro-response-1074497519 div#mc-main-content,
-	.micro-response-1074497519 div.search-wrapper
+	.micro-response805178050 div#mc-main-content,
+	.micro-response805178050 div.search-wrapper
 	{
 		clear: both;
 	}
 
 	/* Layout for landing pages */
 
-	.micro-response-1074497519 div.quick-links
+	.micro-response805178050 div.quick-links
 	{
 		margin-left: auto;
 		margin-right: auto;
 		width: 60%;
 	}
 
-	.micro-response-1074497519 div.two-tiles-home
+	.micro-response805178050 div.two-tiles-home
 	{
 		display: flex;
 		flex-wrap: wrap;
 	}
 
-	.micro-response-1074497519 div.home-tiles
+	.micro-response805178050 div.home-tiles
 	{
 		display: flex;
 		flex-wrap: wrap;
 	}
 
-	.micro-response-1074497519 div.home-tiles > div[onclick]
+	.micro-response805178050 div.home-tiles > div[onclick]
 	{
 		cursor: pointer;
 	}
 
-	.micro-response-1074497519 div.home-tiles > div[onclick]:hover
+	.micro-response805178050 div.home-tiles > div[onclick]:hover
 	{
 		box-shadow: 2px 3px 9px #ccc;
 	}
