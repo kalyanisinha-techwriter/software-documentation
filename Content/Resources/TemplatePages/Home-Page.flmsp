@@ -9,7 +9,7 @@
             <table style="width: 100%;">
                 <col style="width: 50%;" />
                 <col style="width: 50%;" />
-                <tbody>
+                <!-- tbody>
                     <tr>
                         <td>
                             <p class="footer"><MadCap:variable name="General.Email" />
@@ -26,7 +26,7 @@
                             &#160;
                         </td>
                     </tr>
-                </tbody>
+                </tbody> -->
             </table>
         </div>
         <script src="../Scripts/Laguna.js">
