@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Topic B</h1>
+        <p>Based on the video content between timestamps 02:46 and 06:55, here are the detailed sections explaining the concepts taught.</p>
+        <p>1. The Power of Public Images <b>(02:46 - 03:26)</b></p>
+        <p>One of the most powerful features of Docker is that you rarely have to start from scratch. Almost every major software service already has an official, maintained Docker image available for use.</p>
+        <p>Don't Reinvent the Wheel: Instead of creating your own container for a common service, you can use pre-built ones.</p>
+        <p>Official Images: These are maintained by the software vendors themselves or the Docker community.</p>
+        <p>Examples of Available Services:</p>
+        <p>Databases: MySQL, PostgreSQL, MongoDB, Redis, Elasticsearch.</p>
+        <p>Message Brokers: RabbitMQ, Kafka.</p>
+        <p>Web Servers: Nginx, Apache.</p>
+        <p>2. Docker Hub &amp; Repositories <b>(03:27 - 03:52)</b></p>
+        <p>The video introduces the concept of Docker Repositories, which is where these images are stored.</p>
+        <p>Docker Hub: This is the most popular public repository.</p>
+        <p>The GitHub Analogy: Think of Docker Hub as "GitHub," but for container images instead of code.</p>
+        <p>Accessibility: Anyone can pull these public images and use them in their applications without needing to know how the service was built or configured internally.</p>
+        <p>3. The "Old Way" vs. The Docker Way <b>(03:53 - 04:52)</b></p>
+        <p>The tutorial compares the traditional method of setting up a service versus using Docker.</p>
+        <p>The Traditional Pain (Example: PostgreSQL):</p>
+        <p>You have to find the specific installer/binary for your Operating System.</p>
+        <p>You have to install it manually.</p>
+        <p>You have to locate and edit configuration files.</p>
+        <p>You often deal with OS-specific bugs.</p>
+        <p>The Docker Advantage:</p>
+        <p>You skip the installation and configuration steps entirely.</p>
+        <p>You simply pull the image.</p>
+        <p>Result: You have a working database running in seconds, identical across all environments (Local, Dev, Test, Prod).</p>
+        <p>4. Basic Docker Commands <b>(04:53 - 06:55)</b></p>
+        <p>Once you understand the concept, the video moves to the practical application. These are the fundamental commands you will use 70-80% of the time.</p>
+        <p>A. Pulling an Image</p>
+        <p>Downloads the image from Docker Hub to your local machine.</p>
+        <p>code</p>
+        <p>Bash</p>
+        <p>download</p>
+        <p>content_copy</p>
+        <p>expand_less</p>
+        <p>docker pull nginx</p>
+        <p># or</p>
+        <p>docker pull postgres</p>
+        <p>B. Running a Container</p>
+        <p>Takes the image and starts it as a running process. The video emphasizes mapping ports so you can access the service.</p>
+        <p>code</p>
+        <p>Bash</p>
+        <p>download</p>
+        <p>content_copy</p>
+        <p>expand_less</p>
+        <p># -d runs it in "detached" mode (in the background)</p>
+        <p># -p maps the host port to the container port (HostPort:ContainerPort)</p>
+        <p>docker run -d -p 8080:80 nginx</p>
+        <p>In this example, the Nginx server running inside the container on port 80 is accessible on your machine at localhost:8080.</p>
+        <p>C. Listing Containers</p>
+        <p>Shows you which containers are currently active and running.</p>
+        <p>code</p>
+        <p>Bash</p>
+        <p>download</p>
+        <p>content_copy</p>
+        <p>expand_less</p>
+        <p>docker ps</p>
+        <p>D. Stopping a Container</p>
+        <p>Stops the process. You need the Container ID (found using docker ps) to do this.</p>
+        <p>code</p>
+        <p>Bash</p>
+        <p>download</p>
+        <p>content_copy</p>
+        <p>expand_less</p>
+        <p>docker stop [container_id]</p>
+        <p>Recommendation: The video suggests practicing these specific commands using lightweight images like Nginx or Redis to validate your understanding before moving on to building your own images.</p>
+    </body>
+</html>
