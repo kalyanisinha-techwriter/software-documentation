@@ -36,6 +36,36 @@ div.sidenav-container
 }
 
 /* Content */
+/* dropdown selection code begin */
+
+.module-selector
+{
+	margin: 20px 0;
+	font-family: Arial, sans-serif;
+}
+
+.module-selector label
+{
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+#module-dropdown
+{
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#module-dropdown:hover
+{
+	border-color: #777;
+}
+
+/* dropdown selection code end */
 
 img
 {

@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/TemplatePages/Other-Topics.flmsp"
-  DefaultUrl="/Content/Home.htm"
+  DefaultUrl="/Content/AltHome.htm"
   ShowMadCapBacklink="false"
   MasterToc="/Project/TOCs/Combined.fltoc"
   ResolveCssVariables="true"

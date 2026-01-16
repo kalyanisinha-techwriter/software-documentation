@@ -27,6 +27,8 @@
       Url="https://code.jquery.com/ui/1.13.2/jquery-ui.js" />
     <Link
       Url="Content/Resources/Scripts/resize-initializer.js" />
+    <Link
+      Url="Content/Resources/Scripts/navigateToModule.js" />
   </Links>
   <LongLinks>
     <Link
@@ -51,6 +53,8 @@
       Url="https://code.jquery.com/ui/1.13.2/jquery-ui.js" />
     <Link
       Url="Content/Resources/Scripts/resize-initializer.js" />
+    <Link
+      Url="Content/Resources/Scripts/navigateToModule.js" />
   </LongLinks>
   <Anchors />
   <Keywords />

@@ -31,5 +31,7 @@
         </div>
         <script src="../Scripts/Laguna.js">
         </script>
+		<script src="../Scripts/navigateToModule.js">
+		</script>
     </body>
 </html>

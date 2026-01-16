@@ -53,6 +53,36 @@
 }
 
 /* Content */
+/* dropdown selection code begin */
+
+.micro-response805178050 .module-selector
+{
+	margin: 20px 0;
+	font-family: Arial, sans-serif;
+}
+
+.micro-response805178050 .module-selector label
+{
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.micro-response805178050 #module-dropdown
+{
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.micro-response805178050 #module-dropdown:hover
+{
+	border-color: #777;
+}
+
+/* dropdown selection code end */
 
 .micro-response805178050 img
 {

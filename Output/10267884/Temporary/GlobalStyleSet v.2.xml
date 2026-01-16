@@ -157,6 +157,8 @@
         Name="state" />
     </Tag>
     <Tag
+      Name="label" />
+    <Tag
       Name="img">
       <Class
         Name="home-tile-icon" />
@@ -481,8 +483,6 @@
       Name="q" />
     <Tag
       Name="datalist" />
-    <Tag
-      Name="label" />
     <Tag
       Name="optgroup" />
     <Tag

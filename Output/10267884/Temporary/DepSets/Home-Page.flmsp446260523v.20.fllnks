@@ -8,15 +8,11 @@
     <Link
       Url="Content/Resources/Snippets/Header-link-menu.flsnp" />
     <Link
-      Url="Project/VariableSets/General.flvar" />
-    <Link
       Url="Content/Resources/Scripts/Laguna.js" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/Snippets/Header-link-menu.flsnp" />
-    <Link
-      Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Scripts/Laguna.js" />
   </LongLinks>
@@ -25,16 +21,7 @@
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables>
-    <Variable
-      Name="General.Email" />
-    <Variable
-      Name="General.PhoneNumber" />
-    <Variable
-      Name="General.StreetAddress" />
-    <Variable
-      Name="General.CityStateZip" />
-  </Variables>
+  <Variables />
   <FileConditions />
   <FileTags />
   <AllConditions />

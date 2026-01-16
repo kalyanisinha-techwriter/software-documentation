@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Heading-Bookmarks/hovercopy.svg" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Side-Navigation/collapse-arrow.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Side-Navigation/expand-arrow.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Side-Navigation/resize-navigation.png" />
+    <Link
+      Url="Content/Resources/Images/Minus.png" />
+    <Link
+      Url="Content/Resources/Images/Plus.png" />
+    <Link
+      Url="Content/Resources/Images/up-arrow-white.png" />
+    <Link
+      Url="Content/Resources/Images/up-arrow-primary.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Top-Navigation/arrow-down-gray.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Top-Navigation/icon-login.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Toolbar-Buttons/copy-url-icon.png" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
